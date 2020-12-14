@@ -1,2 +1,50 @@
 /*============= Google Fonts =============*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,300&family=Roboto:wght@700;900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/*============= Nav =============*/
+
+.nav-bg {
+    min-height: 8vh;
+    background-image: linear-gradient(360deg, rgb(17, 16, 16), rgb(233, 71, 12));
+}
+
+.logo {
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 1px;
+    transition: all .5s ease-in;
+}
+
+.logo:hover {
+    color: rgb(192, 142, 124);
+}
+
+.logo span {
+    font-size: 14px;
+    margin-left: 20px;
+    color: rgb(230, 218, 218);
+}
+
+ul {
+    margin-left: auto!important;
+}
+
+.nav-link {
+    margin-left: 50px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    transition: all .4s ease-in;
+}
+
+.nav-link:hover {
+    color: #1a1a1a;
+}
