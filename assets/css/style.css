@@ -48,3 +48,45 @@ ul {
 .nav-link:hover {
     color: #1a1a1a;
 }
+
+/*============= Home =============*/
+
+.home {
+    min-height: 800px;
+    background-image: url(../images/home.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.home-info {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.home-info h1 {
+    margin-top: 50px;
+    width: 50%;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    letter-spacing: 1px;
+}
+
+.home-info h1 span {
+    color: rgb(255, 81, 0);
+    text-transform: uppercase;
+}
+
+.home-info aside {
+    color: rgb(196, 187, 187);
+    margin-left: 100%;
+    transform: translate(-100%);
+    width: 30%;
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-size: 15px;
+}
