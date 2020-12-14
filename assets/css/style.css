@@ -81,6 +81,17 @@ ul {
     text-transform: uppercase;
 }
 
+.btn-book {
+    color: #fff;
+    background-color: rgb(238, 70, 9);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin-left: 20%;
+    margin-top: 20px;
+}
+
 .home-info aside {
     color: rgb(196, 187, 187);
     margin-left: 100%;
@@ -89,4 +100,65 @@ ul {
     letter-spacing: 1px;
     font-weight: 300;
     font-size: 15px;
+}
+
+/*============= Rooms =============*/
+
+.about {
+    min-height: 800px;
+    padding-top: 20px;
+}
+
+.about h3 {
+    font-size: 33px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.about p {
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.rules {
+    background-image: linear-gradient(90deg, black, rgb(41, 36, 36));
+    opacity: .8;
+    border-radius: 10px;
+    height: 450px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.rules h4 {
+    font-size: 33px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    margin-left: 25px;
+}
+
+.list-rules {
+    color: #fff;
+    list-style: none;
+    margin-left: 20px;
+}
+
+.who-can-play {
+    margin-top: 50px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgba(224, 224, 6, 0.877);
+    border-radius: 10px;
+}
+
+.who-can-play p {
+    font-size: 16px;
+    letter-spacing: 1px;
 }
