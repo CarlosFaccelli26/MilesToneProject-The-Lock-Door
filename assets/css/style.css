@@ -102,7 +102,7 @@ ul {
     font-size: 15px;
 }
 
-/*============= Rooms =============*/
+/*============= About =============*/
 
 .about {
     min-height: 800px;
@@ -161,4 +161,74 @@ ul {
 .who-can-play p {
     font-size: 16px;
     letter-spacing: 1px;
+}
+
+/*============= Rooms =============*/
+
+.rooms {
+    min-width: 800px;
+    padding-top: 20px;
+    background-color: black;
+}
+
+.rooms h3 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 33px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.card-rooms {
+    height: auto;
+}
+
+.card-rooms h4 {
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: rgb(177, 169, 169);
+    margin: 20px 0 10px 0;
+}
+
+.card-rooms img {
+    width: 400px;
+    height: auto;
+    border-radius: 12px;
+    margin-left: 50%;
+    transform: translate(-50%);
+    margin-bottom: 20px;
+}
+
+.btn-learnmore {
+    background-color: rgb(241, 72, 10);
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-left: 50%;
+    transform: translate(-50%);
+    margin-bottom: 5px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.accordion-panel {
+    background-color: #fff;
+    border-radius: 15px;
+    width: 400px;
+    margin-left: 50%;
+    transform: translate(-50%);
+    max-height: 0%;
+    overflow: hidden;
+    transition: max-height 0.4s ease-out;
+}
+
+.accordion-panel p {
+    text-align: center;
+    font-weight: 300;
+    font-size: 15px;
 }
