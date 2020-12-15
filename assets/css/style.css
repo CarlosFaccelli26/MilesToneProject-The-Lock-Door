@@ -280,3 +280,52 @@ ul {
     width: 100%;
     border-radius: 10px;
 }
+
+/*============= Reviews =============*/
+
+.reviews {
+    padding-top: 20px;
+    background-image: url(../images/reviews-bg.jpg);
+    min-height: 800px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.reviews h3 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 33px;
+    color: #fff;
+}
+
+.review-group {
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.reviews-card {
+    width: 400px;
+    background-color: rgba(46, 44, 44, 0.384);
+    margin: 50px 0 50px 50%;
+    transform: translate(-50%);
+    border-radius: 12px;
+}
+
+.reviews-card h4 {
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.reviews-card p {
+    font-size: 16px;
+    text-align: center;
+    color: rgb(184, 176, 176);
+}

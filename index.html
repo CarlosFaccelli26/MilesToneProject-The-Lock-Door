@@ -234,6 +234,48 @@
         </div>
     </section>
     <!-- /Location -->
+    <!-- Reviews -->
+    <section class="reviews">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h3>See What are they're saying</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div class="review-group">
+                        <div class="reviews-card">
+                            <h4>Lauren</h4>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus voluptates quos earum
+                                dicta enim perferendis sequi quo officia expedita! Qui.</p>
+                        </div>
+                        <div class="reviews-card">
+                            <h4>Jack</h4>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis fuga necessitatibus beatae
+                                deleniti fugiat voluptates laboriosam totam nostrum eligendi maxime.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div class="review-group">
+                        <div class="reviews-card">
+                            <h4>Jhon</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas doloremque
+                                exercitationem libero laborum tempora optio soluta praesentium consequuntur repudiandae
+                                reiciendis?</p>
+                        </div>
+                        <div class="reviews-card">
+                            <h4>Jessica</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas saepe consequuntur
+                                labore ipsum quaerat magnam mollitia quos, laboriosam sequi sed.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Reviews -->
 
 
     <!-- Custom Javascript -->
@@ -268,10 +310,10 @@
                 { lat: -34.68447788695522, lng: -55.69474062783808 },
                 { lat: -34.682690690374955, lng: -55.70749049893516 },
                 { lat: -34.69911739903683, lng: -55.51943811153038 },
-                { lat: -34.677567119090575, lng: -55.756902494106626},
+                { lat: -34.677567119090575, lng: -55.756902494106626 },
             ]
-             //Creating markers
-             var markers = locations.map(function (location, i) {
+            //Creating markers
+            var markers = locations.map(function (location, i) {
                 return new google.maps.Marker({
                     position: location,
                     label: labels[i % labels.length]
@@ -285,11 +327,11 @@
         }
     </script>
 
-     <!-- Google API -->
-     <script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
+    <!-- Google API -->
+    <script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
 
-     <script
-         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIYiwUJjq_qeUI8RkGPYxvYB5XMkFPVIM&callback=initMap&libraries=&v=weekly"></script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIYiwUJjq_qeUI8RkGPYxvYB5XMkFPVIM&callback=initMap&libraries=&v=weekly"></script>
 
     <!-- Bootstrap Javascript and jQuery -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
