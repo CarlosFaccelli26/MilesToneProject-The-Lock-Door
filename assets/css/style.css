@@ -365,3 +365,54 @@ ul {
     font-size: 16px;
     letter-spacing: 1px;
 }
+
+/*============= Contact =============*/
+
+.contact {
+    min-height: 500px;
+    background-color: rgb(8, 8, 8);
+    padding-top: 20px;
+}
+
+.contact h3 {
+    text-align: center;
+    font-size: 33px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.form-control {
+    background-color: #fff;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    background-image: linear-gradient(90deg, rgb(134, 129, 129), rgb(224, 205, 205));
+}
+
+input {
+    width: 80%;
+    height: 50px;
+    margin: 20px;
+    margin-left: 50%;
+    transform: translate(-50%);
+    outline: none;
+    border-radius: 10px;
+    outline: none;
+}
+
+.btn-submit {
+    margin-left: 50%;
+    transform: translate(-50%);
+    outline: none;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: rgb(274, 92, 10);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
