@@ -141,7 +141,7 @@
                         <h4>Cabin in the Woods</h4>
                         <img src="assets/images/cabin.jpg" alt="">
                         <div class="accordion">
-                            <button class="btn-learnmore">
+                            <button class="btn btn-learnmore">
                                 Learn More
                             </button>
                         </div>
@@ -159,7 +159,7 @@
                         <h4>Old House</h4>
                         <img src="assets/images/abonded-house.jpg" alt="">
                         <div class="accordion">
-                            <button class="btn-learnmore">
+                            <button class="btn btn-learnmore">
                                 Learn More
                             </button>
                         </div>
@@ -177,7 +177,7 @@
                         <h4>Evil Church</h4>
                         <img src="assets/images/church.jpg" alt="">
                         <div class="accordion">
-                            <button class="btn-learnmore">
+                            <button class="btn btn-learnmore">
                                 Learn More
                             </button>
                         </div>
@@ -195,7 +195,7 @@
                         <h4>Dead Room</h4>
                         <img src="assets/images/room.jpg" alt="">
                         <div class="accordion">
-                            <button class="btn-learnmore">
+                            <button class="btn btn-learnmore">
                                 Learn More
                             </button>
                         </div>
@@ -214,7 +214,23 @@
     <!-- /Rooms -->
 
 
-
+    <!-- Custom Javascript -->
+    <script>
+        // Accordion
+        var acc = document.getElementsByClassName('accordion');
+        var i;
+        // Creating Bucle For
+        for(i = 0; i < acc.length; i++) {
+            acc[i].addEventListener('click', function() {
+                var panel = this.nextElementSibling;
+                if(panel.style.maxHeight) {
+                    panel.style.maxHeight = null;
+                } else {
+                    panel.style.maxHeight = panel.scrollHeight + 'px';
+                }
+            });
+        }
+    </script>
     <!-- Bootstrap Javascript and jQuery -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
