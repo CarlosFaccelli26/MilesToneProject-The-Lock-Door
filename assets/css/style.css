@@ -416,3 +416,42 @@ input {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
 }
+
+/*============= Footer =============*/
+
+.footer {
+    min-height: 8vh;
+    background-image: linear-gradient(180deg, rgb(17, 16, 16), rgb(233, 71, 12));
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-links i {
+    font-size: 25px;
+    color: #fff;
+    transition: all .5s ease-in-out;
+}
+
+.social-links i:hover {
+    color: rgb(235, 63, 11);
+}
+
+.copyright p {
+    text-align: right;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.copyright p span {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
