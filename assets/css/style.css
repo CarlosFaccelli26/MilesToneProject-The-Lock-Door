@@ -45,7 +45,7 @@ ul {
 }
 
 .nav-link {
-    margin-left: 50px;
+    margin-left: 40px;
     color: #fff;
     font-size: 15px;
     font-weight: 300;
@@ -470,7 +470,7 @@ input {
     /* Home */
     .home-info h1 {
         width: 100%;
-        font-size: 25px;
+        font-size: 33px;
         text-align: center;
     }
 
@@ -483,6 +483,8 @@ input {
         width: 100%;
         font-size: 16px;
         text-align: center;
+        margin-left: 50%;
+        transform: translate(-50%);
     }
 
     /* About */
@@ -601,5 +603,20 @@ input {
     /* Nav */
     .nav-link {
         margin-left: 20px;
+    }
+
+    /* Home */
+    .home-info h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .btn-book {
+        margin-left: 50%;
+        transform: translate(-50%);
+    }
+
+    .home-info aside {
+        width: 80%;
     }
 }
