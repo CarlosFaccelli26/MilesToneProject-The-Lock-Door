@@ -14,6 +14,12 @@ body {
     background-image: linear-gradient(360deg, rgb(17, 16, 16), rgb(233, 71, 12));
 }
 
+.nav-bg i {
+    color: #fff;
+    font-size: 28px;
+    outline: none;
+}
+
 .logo {
     font-size: 25px;
     font-family: 'Roboto', sans-serif;
@@ -166,7 +172,7 @@ ul {
 /*============= Rooms =============*/
 
 .rooms {
-    min-width: 800px;
+    min-height: 800px;
     padding-top: 20px;
     background-color: black;
 }
@@ -454,4 +460,92 @@ input {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     cursor: pointer;
+}
+
+/*============= Media Queries =============*/
+
+@media screen and (max-width: 667px) {
+    /* Home */
+    .home-info h1 {
+        width: 100%;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .btn-book {
+        margin-left: 50%;
+        transform: translate(-50%);
+    }
+
+    .home-info aside {
+        width: 100%;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    /* About */
+    .about h3 {
+        font-size: 25px;
+    }
+
+    .about p {
+        font-size: 18px;
+    }
+
+    .rules {
+        width: 100%;
+        text-align: center;
+    }
+
+    .who-can-play {
+        margin-bottom: 10px;
+    }
+
+    /* Rooms */
+    .rooms {
+        width: 100%;
+    }
+
+    .rooms h3 {
+        font-size: 28px;
+    }
+
+    .card-rooms h4 {
+        font-size: 20px;
+    }
+
+    .card-rooms img {
+        width: 80%;
+        height: auto;
+    }
+
+    .accordion-panel {
+        width: 80%;
+    }
+
+    /* Reviews */
+    .reviews h3 {
+        font-size: 28px;
+    }
+
+    .reviews-card {
+        width: 100%;
+        height: auto;
+    }
+
+    /* FAQ */
+    .faq-questions {
+        width: 100%;
+    }
+
+    /* Contact */
+    .form-control {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Footer */
+    .copyright p {
+        text-align: center;
+    }
 }
