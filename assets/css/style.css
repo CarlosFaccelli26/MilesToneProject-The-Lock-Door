@@ -5,6 +5,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: 400;
+    overflow-x: hidden;
 }
 
 /*============= Nav =============*/
@@ -516,8 +517,12 @@ input {
         height: auto;
     }
 
+    .btn-learnmore {
+        padding: 5px 10px;
+    }
+
     .accordion-panel {
-        width: 80%;
+        width: 50%;
     }
 
     /* Reviews */
@@ -589,5 +594,12 @@ input {
     /* Footer */
     .copyright p {
         text-align: center;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    /* Nav */
+    .nav-link {
+        margin-left: 20px;
     }
 }
