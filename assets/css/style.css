@@ -156,6 +156,7 @@ ul {
 
 .who-can-play {
     margin-top: 50px;
+    margin-bottom: 10px;
     height: 450px;
     display: flex;
     flex-direction: column;
@@ -497,10 +498,6 @@ input {
         text-align: center;
     }
 
-    .who-can-play {
-        margin-bottom: 10px;
-    }
-
     /* Rooms */
     .rooms {
         width: 100%;
@@ -536,6 +533,51 @@ input {
     /* FAQ */
     .faq-questions {
         width: 100%;
+    }
+
+    /* Contact */
+    .form-control {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Footer */
+    .copyright p {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:812px) {
+    /* Home */
+    .home-info h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .btn-book {
+        margin-left: 50%;
+        transform: translate(-50%);
+    }
+
+    .home-info aside {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* About */
+    .rules {
+        text-align: center;
+    }
+
+    /* Rooms */
+    .card-rooms img {
+        width: 50%;
+        height: auto;
+    }
+
+    .faq-questions {
+        margin-left: 50%;
+        transform: translate(-50%);
     }
 
     /* Contact */
