@@ -1,622 +1,659 @@
 /*============= Google Fonts =============*/
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,300&family=Roboto:wght@700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,300&family=Roboto:wght@700;900&display=swap");
 
 body {
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  overflow-x: hidden;
 }
 
 /*============= Nav =============*/
 
 .nav-bg {
-    min-height: 8vh;
-    background-image: linear-gradient(360deg, rgb(17, 16, 16), rgb(233, 71, 12));
+  min-height: 8vh;
+  background-image: linear-gradient(360deg, rgb(17, 16, 16), rgb(233, 71, 12));
 }
 
 .nav-bg i {
-    color: #fff;
-    font-size: 28px;
-    outline: none;
+  color: #fff;
+  font-size: 28px;
+  outline: none;
 }
 
 .logo {
-    font-size: 25px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    color: #fff;
-    letter-spacing: 1px;
-    transition: all .5s ease-in;
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 1px;
+  transition: all 0.5s ease-in;
+}
+
+.logo i {
+  font-size: 25px;
 }
 
 .logo:hover {
-    color: rgb(192, 142, 124);
+  color: rgb(192, 142, 124);
 }
 
 .logo span {
-    font-size: 14px;
-    margin-left: 20px;
-    color: rgb(230, 218, 218);
+  font-size: 14px;
+  margin-left: 20px;
+  color: rgb(230, 218, 218);
 }
 
 ul {
-    margin-left: auto!important;
+  margin-left: auto !important;
 }
 
 .nav-link {
-    margin-left: 40px;
-    color: #fff;
-    font-size: 15px;
-    font-weight: 300;
-    transition: all .4s ease-in;
+  margin-left: 40px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 300;
+  transition: all 0.4s ease-in;
 }
 
 .nav-link:hover {
-    color: #1a1a1a;
+  color: #1a1a1a;
 }
 
 /*============= Home =============*/
 
 .home {
-    min-height: 800px;
-    background-image: url(../images/home.jpg);
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
+  min-height: 800px;
+  background-image: url(../images/home.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .home-info {
-    height: 700px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .home-info h1 {
-    margin-top: 50px;
-    width: 50%;
-    color: #fff;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 50px;
-    letter-spacing: 1px;
+  margin-top: 50px;
+  width: 50%;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  letter-spacing: 1px;
 }
 
 .home-info h1 span {
-    color: rgb(255, 81, 0);
-    text-transform: uppercase;
+  color: rgb(255, 81, 0);
+  text-transform: uppercase;
 }
 
 .btn-book {
-    color: #fff;
-    background-color: rgb(238, 70, 9);
-    padding: 10px 20px;
-    border-radius: 10px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    margin-left: 20%;
-    margin-top: 20px;
+  color: #fff;
+  background-color: rgb(238, 70, 9);
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  margin-left: 20%;
+  margin-top: 20px;
 }
 
 .home-info aside {
-    color: rgb(196, 187, 187);
-    margin-left: 100%;
-    transform: translate(-100%);
-    width: 30%;
-    letter-spacing: 1px;
-    font-weight: 300;
-    font-size: 15px;
+  color: rgb(196, 187, 187);
+  margin-left: 100%;
+  transform: translate(-100%);
+  width: 30%;
+  letter-spacing: 1px;
+  font-weight: 300;
+  font-size: 15px;
 }
 
 /*============= About =============*/
 
 .about {
-    min-height: 800px;
-    padding-top: 20px;
+  min-height: 800px;
+  padding-top: 20px;
 }
 
 .about h3 {
-    font-size: 33px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    text-align: center;
+  font-size: 33px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  text-align: center;
 }
 
 .about p {
-    text-align: center;
-    font-weight: 400;
-    letter-spacing: 1px;
-    font-size: 20px;
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-size: 20px;
 }
 
 .rules {
-    background-image: linear-gradient(90deg, black, rgb(41, 36, 36));
-    opacity: .8;
-    border-radius: 10px;
-    height: 450px;
-    margin-top: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+  background-image: linear-gradient(90deg, black, rgb(41, 36, 36));
+  opacity: 0.8;
+  border-radius: 10px;
+  height: 450px;
+  margin-top: 50px;
 }
 
 .rules h4 {
-    font-size: 33px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    color: #fff;
-    margin-left: 25px;
+  font-size: 33px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #fff;
+  margin-left: 50px;
+}
+
+.rules ul {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .list-rules {
-    color: #fff;
-    list-style: none;
-    margin-left: 20px;
+  color: #fff;
+  list-style: none;
+  margin-left: 20px;
 }
 
 .who-can-play {
-    margin-top: 50px;
-    margin-bottom: 10px;
-    height: 450px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    background-color: rgba(224, 224, 6, 0.877);
-    border-radius: 10px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: rgba(224, 224, 6, 0.877);
+  border-radius: 10px;
 }
 
 .who-can-play p {
-    font-size: 16px;
-    letter-spacing: 1px;
+  font-size: 16px;
+  letter-spacing: 1px;
 }
 
 /*============= Rooms =============*/
 
 .rooms {
-    min-height: 800px;
-    padding-top: 20px;
-    background-color: black;
+  min-height: 800px;
+  padding-top: 20px;
+  background-color: black;
 }
 
 .rooms h3 {
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 33px;
-    font-weight: 700;
-    color: #fff;
-    letter-spacing: 1px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 33px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 1px;
 }
 
 .card-rooms {
-    height: auto;
+  height: auto;
 }
 
 .card-rooms h4 {
-    text-align: center;
-    font-size: 28px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    letter-spacing: 1px;
-    color: rgb(177, 169, 169);
-    margin: 20px 0 10px 0;
+  text-align: center;
+  font-size: 28px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: rgb(177, 169, 169);
+  margin: 20px 0 10px 0;
 }
 
 .card-rooms img {
-    width: 400px;
-    height: auto;
-    border-radius: 12px;
-    margin-left: 50%;
-    transform: translate(-50%);
-    margin-bottom: 20px;
+  width: 400px;
+  height: auto;
+  border-radius: 12px;
+  margin-left: 50%;
+  transform: translate(-50%);
+  margin-bottom: 20px;
 }
 
 .btn-learnmore {
-    background-color: rgb(241, 72, 10);
-    border-radius: 10px;
-    padding: 10px 20px;
-    margin-left: 50%;
-    transform: translate(-50%);
-    margin-bottom: 5px;
-    color: #fff;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    letter-spacing: 1px;
-    transition: all .6s ease-in-out;
-    border: 1px solid rgb(241, 72, 10);
+  background-color: rgb(241, 72, 10);
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-left: 50%;
+  transform: translate(-50%);
+  margin-bottom: 5px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  transition: all 0.6s ease-in-out;
+  border: 1px solid rgb(241, 72, 10);
 }
 
 .btn-learnmore:hover {
-    background-color: #fff;
-    color: rgb(241, 72, 10);
+  background-color: #fff;
+  color: rgb(241, 72, 10);
 }
 
 .accordion-panel {
-    background-color: #fff;
-    border-radius: 15px;
-    width: 400px;
-    margin-left: 50%;
-    margin-bottom: 10px;
-    transform: translate(-50%);
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.4s ease-out;
+  background-color: #fff;
+  border-radius: 15px;
+  width: 400px;
+  margin-left: 50%;
+  margin-bottom: 10px;
+  transform: translate(-50%);
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease-out;
 }
 
 .accordion-panel p {
-    text-align: center;
-    font-weight: 300;
-    font-size: 15px;
+  text-align: center;
+  font-weight: 300;
+  font-size: 15px;
 }
 
 /*============= Location =============*/
 
 .location {
-    min-height: 800px;
-    padding-top: 20px;
+  min-height: 800px;
+  padding-top: 20px;
 }
 
 .addresses {
-    height: 300px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+  height: 300px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .addresses h3 {
-    font-size: 33px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    letter-spacing: 1px;
+  font-size: 33px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
 }
 
 .addresses p {
-    cursor: pointer;
-    font-weight: 700;
-    font-size: 17px;
-    transition: all .5s ease-out;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 17px;
+  transition: all 0.5s ease-out;
 }
 
 .addresses p:hover {
-    color: rgb(241, 72, 10);
-    text-decoration: underline;
+  color: rgb(241, 72, 10);
+  text-decoration: underline;
 }
 
 #map {
-    height: 400px;
-    width: 100%;
-    border-radius: 10px;
+  height: 400px;
+  width: 100%;
+  border-radius: 10px;
 }
 
 /*============= Reviews =============*/
 
 .reviews {
-    padding-top: 20px;
-    background-image: url(../images/reviews-bg.jpg);
-    min-height: 800px;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
+  padding-top: 20px;
+  background-image: url(../images/reviews-bg.jpg);
+  min-height: 800px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .reviews h3 {
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 33px;
-    color: #fff;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 33px;
+  color: #fff;
 }
 
 .review-group {
-    height: 650px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .reviews-card {
-    width: 400px;
-    background-color: rgba(46, 44, 44, 0.384);
-    margin: 50px 0 50px 50%;
-    transform: translate(-50%);
-    border-radius: 12px;
+  width: 400px;
+  background-color: rgba(46, 44, 44, 0.384);
+  margin: 50px 0 50px 50%;
+  transform: translate(-50%);
+  border-radius: 12px;
 }
 
 .reviews-card h4 {
-    text-align: center;
-    color: #fff;
-    font-size: 22px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 600;
-    padding: 10px;
+  text-align: center;
+  color: #fff;
+  font-size: 22px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  padding: 10px;
 }
 
 .reviews-card p {
-    font-size: 16px;
-    text-align: center;
-    color: rgb(184, 176, 176);
+  font-size: 16px;
+  text-align: center;
+  color: rgb(184, 176, 176);
 }
 
 /*============= FAQ =============*/
 
 .faq {
-    min-height: 800px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  min-height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .faq-questions {
-    background: rgba(44, 41, 41, 0.473);
-    width: 600px;
-    height: 500px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    margin-left: 100%;
-    transform: translate(-100%);
-    border-radius: 12px;
+  background: rgba(44, 41, 41, 0.473);
+  width: 600px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 100%;
+  transform: translate(-100%);
+  border-radius: 12px;
 }
 
 .faq-questions h4 {
-    font-size: 33px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 600;
-    letter-spacing: 1px;
-    color: rgb(10, 9, 9);
-    text-align: center;
+  font-size: 33px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: rgb(10, 9, 9);
+  text-align: center;
 }
 
 .faq-questions p {
-    text-align: center;
-    font-size: 16px;
-    letter-spacing: 1px;
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 1px;
 }
 
 /*============= Contact =============*/
 
 .contact {
-    min-height: 500px;
-    background-color: rgb(8, 8, 8);
-    padding-top: 20px;
+  min-height: 700px;
+  background-color: rgb(8, 8, 8);
+  padding-top: 20px;
 }
 
 .contact h3 {
-    text-align: center;
-    font-size: 33px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    color: #fff;
-    letter-spacing: 1px;
+  text-align: center;
+  font-size: 33px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 1px;
 }
 
 .form-control {
-    background-color: #fff;
-    height: 400px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    border-radius: 20px;
-    background-image: linear-gradient(90deg, rgb(134, 129, 129), rgb(224, 205, 205));
+  background-color: #fff;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-radius: 20px;
+  background-image: linear-gradient(
+    90deg,
+    rgb(134, 129, 129),
+    rgb(224, 205, 205)
+  );
 }
 
 input {
-    width: 80%;
-    height: 50px;
-    margin: 20px;
-    margin-left: 50%;
-    transform: translate(-50%);
-    outline: none;
-    border-radius: 10px;
-    outline: none;
+  width: 80%;
+  height: 50px;
+  margin: 20px;
+  margin-left: 50%;
+  transform: translate(-50%);
+  outline: none;
+  border-radius: 10px;
+  outline: none;
+}
+
+.form-control textarea {
+  margin-left: 50%;
+  transform: translate(-50%);
+  width: 80%;
+  border-radius: 12px;
+  outline: none;
 }
 
 .btn-submit {
-    margin-left: 50%;
-    transform: translate(-50%);
-    outline: none;
-    color: #fff;
-    text-transform: uppercase;
-    background-color: rgb(274, 92, 10);
-    padding: 10px 20px;
-    border-radius: 10px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
+  margin-left: 50%;
+  transform: translate(-50%);
+  outline: none;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: rgb(233, 92, 10);
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  transition: all 0.6s ease-out;
+}
+
+.btn-submit:hover {
+  background-color: #fff;
+  color: rgb(233, 92, 10);
+  border: 1px solid rgb(233, 92, 10);
 }
 
 /*============= Footer =============*/
 
 .footer {
-    min-height: 8vh;
-    background-image: linear-gradient(180deg, rgb(17, 16, 16), rgb(233, 71, 12));
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  min-height: 8vh;
+  padding: 10px;
+  background-image: linear-gradient(180deg, rgb(17, 16, 16), rgb(233, 71, 12));
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .social-links {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 .social-links i {
-    font-size: 25px;
-    color: #fff;
-    transition: all .5s ease-in-out;
+  font-size: 25px;
+  color: #fff;
+  transition: all 0.5s ease-in-out;
 }
 
 .social-links i:hover {
-    color: rgb(235, 63, 11);
+  color: rgb(235, 63, 11);
 }
 
-.copyright p {
-    text-align: right;
-    color: #fff;
-    letter-spacing: 1px;
-    font-size: 16px;
-    font-weight: 300;
+.copyright h5 {
+  text-align: right;
+  color: #fff;
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-weight: 300;
 }
 
-.copyright p span {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    cursor: pointer;
+.copyright h5 span {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  cursor: pointer;
 }
 
 /*============= Media Queries =============*/
 
 @media screen and (max-width: 667px) {
-    /* Home */
-    .home-info h1 {
-        width: 100%;
-        font-size: 33px;
-        text-align: center;
-    }
+  /* Home */
+  .home-info h1 {
+    width: 100%;
+    font-size: 33px;
+    text-align: center;
+  }
 
-    .btn-book {
-        margin-left: 50%;
-        transform: translate(-50%);
-    }
+  .btn-book {
+    margin-left: 50%;
+    transform: translate(-50%);
+  }
 
-    .home-info aside {
-        width: 100%;
-        font-size: 16px;
-        text-align: center;
-        margin-left: 50%;
-        transform: translate(-50%);
-    }
+  .home-info aside {
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+    margin-left: 50%;
+    transform: translate(-50%);
+  }
 
-    /* About */
-    .about h3 {
-        font-size: 25px;
-    }
+  /* About */
+  .about h3 {
+    font-size: 25px;
+  }
 
-    .about p {
-        font-size: 18px;
-    }
+  .about p {
+    font-size: 18px;
+  }
 
-    .rules {
-        width: 100%;
-        text-align: center;
-    }
+  .rules {
+    width: 100%;
+    text-align: center;
+  }
 
-    /* Rooms */
-    .rooms {
-        width: 100%;
-    }
+  .rules h4 {
+      margin: 0;
+  }
 
-    .rooms h3 {
-        font-size: 28px;
-    }
+  .rules ul li {
+    text-align: center;
+    margin: 0;
+  }
 
-    .card-rooms h4 {
-        font-size: 20px;
-    }
+  /* Rooms */
+  .rooms {
+    width: 100%;
+  }
 
-    .card-rooms img {
-        width: 80%;
-        height: auto;
-    }
+  .rooms h3 {
+    font-size: 28px;
+  }
 
-    .btn-learnmore {
-        padding: 5px 10px;
-    }
+  .card-rooms h4 {
+    font-size: 20px;
+  }
 
-    .accordion-panel {
-        width: 50%;
-    }
+  .card-rooms img {
+    width: 80%;
+    height: auto;
+  }
 
-    /* Reviews */
-    .reviews h3 {
-        font-size: 28px;
-    }
+  .btn-learnmore {
+    padding: 5px 10px;
+  }
 
-    .reviews-card {
-        width: 100%;
-        height: auto;
-    }
+  .accordion-panel {
+    width: 50%;
+  }
 
-    /* FAQ */
-    .faq-questions {
-        width: 100%;
-    }
+  /* Reviews */
+  .reviews h3 {
+    font-size: 28px;
+  }
 
-    /* Contact */
-    .form-control {
-        width: 100%;
-        height: auto;
-    }
+  .reviews-card {
+    width: 100%;
+    height: auto;
+  }
 
-    /* Footer */
-    .copyright p {
-        text-align: center;
-    }
+  /* FAQ */
+  .faq-questions {
+    width: 100%;
+  }
+
+  /* Contact */
+  .form-control {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Footer */
+  .copyright p {
+    text-align: center;
+  }
 }
 
-@media screen and (max-width:812px) {
-    /* Home */
-    .home-info h1 {
-        width: 100%;
-        text-align: center;
-    }
+@media screen and (max-width: 812px) {
+  /* Home */
+  .home-info h1 {
+    width: 100%;
+    text-align: center;
+  }
 
-    .btn-book {
-        margin-left: 50%;
-        transform: translate(-50%);
-    }
+  .btn-book {
+    margin-left: 50%;
+    transform: translate(-50%);
+  }
 
-    .home-info aside {
-        width: 100%;
-        text-align: center;
-    }
+  .home-info aside {
+    width: 100%;
+    text-align: center;
+  }
 
-    /* About */
-    .rules {
-        text-align: center;
-    }
+  /* About */
+  .rules {
+    text-align: center;
+  }
 
-    /* Rooms */
-    .card-rooms img {
-        width: 50%;
-        height: auto;
-    }
+  /* Rooms */
+  .card-rooms img {
+    width: 50%;
+    height: auto;
+  }
 
-    .faq-questions {
-        margin-left: 50%;
-        transform: translate(-50%);
-    }
+  .faq-questions {
+    margin-left: 50%;
+    transform: translate(-50%);
+  }
 
-    /* Contact */
-    .form-control {
-        width: 100%;
-        height: auto;
-    }
+  /* Contact */
+  .form-control {
+    width: 100%;
+    height: auto;
+  }
 
-    /* Footer */
-    .copyright p {
-        text-align: center;
-    }
+  /* Footer */
+  .copyright p {
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 1024px) {
-    /* Nav */
-    .nav-link {
-        margin-left: 20px;
-    }
+  /* Nav */
+  .nav-link {
+    margin-left: 20px;
+  }
 
-    /* Home */
-    .home-info h1 {
-        width: 100%;
-        text-align: center;
-    }
+  /* Home */
+  .home-info h1 {
+    width: 100%;
+    text-align: center;
+  }
 
-    .btn-book {
-        margin-left: 50%;
-        transform: translate(-50%);
-    }
+  .btn-book {
+    margin-left: 50%;
+    transform: translate(-50%);
+  }
 
-    .home-info aside {
-        width: 80%;
-    }
+  .home-info aside {
+    width: 80%;
+  }
 }
