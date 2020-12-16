@@ -5,7 +5,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 18px;
   font-weight: 400;
-  overflow-x: hiiden;
+  overflow-x: hidden;
 }
 
 /*============= Nav =============*/
@@ -172,6 +172,13 @@ ul {
   justify-content: space-around;
   background-color: rgba(224, 224, 6, 0.877);
   border-radius: 10px;
+}
+
+.who-can-play h4 {
+  text-align: center;
+  font-size: 33px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
 }
 
 .who-can-play p {
@@ -565,12 +572,16 @@ input {
   }
 
   /* Reviews */
+  .reviews {
+    height: auto;
+  }
+
   .reviews h3 {
     font-size: 28px;
   }
 
   .reviews-card {
-    width: 60%;
+    width: 100%;
     height: auto;
   }
 
@@ -625,11 +636,6 @@ input {
   }
 
   /* Review */
-
-  .reviews-card {
-    width: 60%;
-    height: auto;
-  }
 
   /* Contact */
   .form-control {
