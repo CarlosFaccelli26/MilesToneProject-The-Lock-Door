@@ -5,7 +5,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 18px;
   font-weight: 400;
-  overflow-x: hidden;
+  overflow-x: hiiden;
 }
 
 /*============= Nav =============*/
@@ -570,7 +570,7 @@ input {
   }
 
   .reviews-card {
-    width: 100%;
+    width: 60%;
     height: auto;
   }
 
@@ -586,7 +586,7 @@ input {
   }
 
   /* Footer */
-  .copyright p {
+  .copyright h5 {
     text-align: center;
   }
 }
@@ -624,6 +624,13 @@ input {
     transform: translate(-50%);
   }
 
+  /* Review */
+
+  .reviews-card {
+    width: 60%;
+    height: auto;
+  }
+
   /* Contact */
   .form-control {
     width: 100%;
@@ -631,7 +638,7 @@ input {
   }
 
   /* Footer */
-  .copyright p {
+  .copyright h5 {
     text-align: center;
   }
 }
