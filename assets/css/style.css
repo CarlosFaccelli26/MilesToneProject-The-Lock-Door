@@ -101,6 +101,12 @@ ul {
   font-weight: 700;
   margin-left: 20%;
   margin-top: 20px;
+  transition: all .5s ease-out;
+}
+
+.btn-book:hover {
+  background-color: #fff;
+  color: rgb(238, 70, 9);
 }
 
 .home-info aside {
@@ -229,7 +235,7 @@ ul {
 .btn-learnmore {
   background-color: rgb(241, 72, 10);
   border-radius: 10px;
-  padding: 10px 20px;
+  padding: 10px 40px;
   margin-left: 50%;
   transform: translate(-50%);
   margin-bottom: 5px;
@@ -643,6 +649,13 @@ input {
     height: auto;
   }
 
+  /* Footer */
+  .copyright h5 {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 992px) {
   /* Footer */
   .copyright h5 {
     text-align: center;
