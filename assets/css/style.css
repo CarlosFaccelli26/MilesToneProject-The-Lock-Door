@@ -101,7 +101,7 @@ ul {
   font-weight: 700;
   margin-left: 20%;
   margin-top: 20px;
-  transition: all .5s ease-out;
+  transition: all 0.5s ease-out;
 }
 
 .btn-book:hover {
@@ -183,7 +183,7 @@ ul {
 .who-can-play h4 {
   text-align: center;
   font-size: 33px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
 }
 
@@ -543,7 +543,7 @@ input {
   }
 
   .rules h4 {
-      margin: 0;
+    margin: 0;
   }
 
   .rules ul li {
@@ -565,16 +565,16 @@ input {
   }
 
   .card-rooms img {
-    width: 80%;
+    width: 100%;
     height: auto;
   }
 
   .btn-learnmore {
-    padding: 5px 10px;
+    padding: 5px 35px;
   }
 
   .accordion-panel {
-    width: 50%;
+    width: 100%;
   }
 
   /* Reviews */
@@ -608,7 +608,7 @@ input {
   }
 }
 
-@media screen and (max-width: 812px) {
+@media screen and (min-width: 668px) and (max-width: 812px) {
   /* Home */
   .home-info h1 {
     width: 100%;
