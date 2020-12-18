@@ -230,6 +230,7 @@ ul {
 
 .card-rooms {
   height: auto;
+  position: relative;
 }
 
 .card-rooms h4 {
@@ -251,7 +252,7 @@ ul {
   margin-bottom: 20px;
 }
 
-.btn-learnmore {
+/*.btn-learnmore {
   background-color: rgb(241, 72, 10);
   border-radius: 10px;
   padding: 10px 40px;
@@ -269,24 +270,42 @@ ul {
 .btn-learnmore:hover {
   background-color: #fff;
   color: rgb(241, 72, 10);
-}
+}*/
 
 .accordion-panel {
-  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
   border-radius: 15px;
   width: 400px;
   margin-left: 50%;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   transform: translate(-50%);
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.4s ease-out;
+  background-color: transparent;
+  opacity: 1;
+  transition: all .5s ease-out;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.accordion-panel:hover {
+  background-color: rgba(87, 80, 80, 0.555);
 }
 
 .accordion-panel p {
   text-align: center;
   font-weight: 300;
   font-size: 15px;
+  line-height: 1;
+  margin: 0;
+  color: transparent;
+  transition: all .5s ease-out;
+}
+
+.accordion-panel p:hover {
+  color: #fff;
 }
 
 /*============= Location =============*/

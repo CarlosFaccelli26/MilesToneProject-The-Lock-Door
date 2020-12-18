@@ -149,9 +149,6 @@
                         <h4>Cabin in the Woods</h4>
                         <img src="assets/images/cabin.jpg" alt="">
                         <div class="accordion">
-                            <button class="btn btn-learnmore">
-                                <i class="fas fa-angle-double-down"></i>
-                            </button>
                         </div>
                         <div class="accordion-panel">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, magni numquam ratione
@@ -167,9 +164,6 @@
                         <h4>Old House</h4>
                         <img src="assets/images/abonded-house.jpg" alt="">
                         <div class="accordion">
-                            <button class="btn btn-learnmore">
-                                <i class="fas fa-angle-double-down"></i>
-                            </button>
                         </div>
                         <div class="accordion-panel">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, magni numquam ratione
@@ -185,9 +179,6 @@
                         <h4>Evil Church</h4>
                         <img src="assets/images/church.jpg" alt="">
                         <div class="accordion">
-                            <button class="btn btn-learnmore">
-                                <i class="fas fa-angle-double-down"></i>
-                            </button>
                         </div>
                         <div class="accordion-panel">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, magni numquam ratione
@@ -203,9 +194,6 @@
                         <h4>Dead Room</h4>
                         <img src="assets/images/room.jpg" alt="">
                         <div class="accordion">
-                            <button class="btn btn-learnmore">
-                                <i class="fas fa-angle-double-down"></i>
-                            </button>
                         </div>
                         <div class="accordion-panel">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, magni numquam ratione
@@ -370,21 +358,6 @@
 
     <!-- Custom Javascript -->
     <script>
-        // Accordion
-        var acc = document.getElementsByClassName('accordion');
-        var i;
-        // Creating Bucle For
-        for (i = 0; i < acc.length; i++) {
-            acc[i].addEventListener('click', function () {
-                var panel = this.nextElementSibling;
-                if (panel.style.maxHeight) {
-                    panel.style.maxHeight = null;
-                } else {
-                    panel.style.maxHeight = panel.scrollHeight + 'px';
-                }
-            });
-        }
-
         // Google API
         function initMap() {
             var map = new google.maps.Map(document.getElementById('map'), {
