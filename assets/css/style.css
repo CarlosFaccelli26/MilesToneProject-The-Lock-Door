@@ -1,6 +1,9 @@
 /*============= Google Fonts =============*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,300&family=Roboto:wght@700;900&display=swap");
 
+html {
+  overflow-x: hidden;
+}
 body {
   font-family: "Poppins", sans-serif;
   font-size: 18px;
@@ -155,28 +158,28 @@ ul {
   font-weight: 700;
   color: #fff;
   margin-left: 50px;
+  padding-top: 15px;
 }
 
 .rules ul {
-  height: 400px;
+  height: 300px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .list-rules {
   color: #fff;
   list-style: none;
   margin-left: 20px;
+  margin-top: 10px;
+  font-size: 24px;
 }
 
 .who-can-play {
   margin-top: 50px;
   margin-bottom: 10px;
   height: 450px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
   background-color: rgba(224, 224, 6, 0.877);
   border-radius: 10px;
 }
@@ -186,11 +189,22 @@ ul {
   font-size: 33px;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
+  padding-top: 15px;
 }
 
-.who-can-play p {
-  font-size: 16px;
+.who-can-play-list {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 25px;
+}
+
+.who-can-play-list p {
+  font-size: 24px;
   letter-spacing: 1px;
+  text-align: left;
+
 }
 
 /*============= Rooms =============*/
@@ -400,7 +414,7 @@ ul {
 
 .contact {
   min-height: 700px;
-  background-color: rgb(8, 8, 8);
+  background-color: rgba(46, 44, 44, 0.384);
   padding-top: 20px;
 }
 
@@ -409,22 +423,17 @@ ul {
   font-size: 33px;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
-  color: #fff;
+  color: rgb(2, 2, 2);
   letter-spacing: 1px;
 }
 
 .form-control {
-  background-color: #fff;
+  /*background-color: rgb(218, 206, 206);*/
   min-height: 400px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   border-radius: 20px;
-  background-image: linear-gradient(
-    90deg,
-    rgb(134, 129, 129),
-    rgb(224, 205, 205)
-  );
 }
 
 input {
