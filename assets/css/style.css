@@ -397,6 +397,68 @@ ul {
   color: rgb(184, 176, 176);
 }
 
+/*============= Prices =============*/
+
+.prices {
+  min-height: 400px;
+  padding: 20px;
+  background-color: #1a1a1a;
+}
+
+.prices-header {
+  text-align: center;
+  cursor: pointer;
+}
+
+.prices-header h3 {
+  font-size: 33px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+.prices-header span {
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(240, 71, 10, 0.877);
+}
+
+.price-list {
+  min-height: 250px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+}
+
+.price {
+  width: 300px;
+  height: 200px;
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: all .5s ease-out;
+}
+
+.price:hover {
+  border: 1px solid #fff;
+  box-shadow: 6px 2px 6px #fff;
+}
+
+.price h4 {
+  color: #fff;
+  margin-bottom: 30px;
+  font-size: 26px;
+} 
+
+.price span {
+  color: rgba(240, 71, 10, 0.877);
+  font-size: 20px;
+  letter-spacing: 1px;
+}
 
 /*============= Contact =============*/
 
@@ -589,6 +651,17 @@ input {
     height: auto;
   }
 
+  /* Prices */
+  .price-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .price {
+    margin-top: 10px;
+  }
+
   /* Contact */
   .form-control {
     width: 100%;
@@ -629,6 +702,17 @@ input {
     height: auto;
   }
 
+  /* Prices */
+  .price-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .price {
+    margin-top: 10px;
+  }
+
   /* Contact */
   .form-control {
     width: 100%;
@@ -642,6 +726,17 @@ input {
 }
 
 @media screen and (max-width: 992px) {
+  /* Prices */
+  .price-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .price {
+    margin-top: 10px;
+  }
+  
   /* Footer */
   .copyright h5 {
     text-align: center;
