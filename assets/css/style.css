@@ -397,41 +397,6 @@ ul {
   color: rgb(184, 176, 176);
 }
 
-/*============= FAQ =============*/
-
-.faq {
-  min-height: 800px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.faq-questions {
-  background: rgba(44, 41, 41, 0.473);
-  width: 600px;
-  height: 500px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  margin-left: 100%;
-  transform: translate(-100%);
-  border-radius: 12px;
-}
-
-.faq-questions h4 {
-  font-size: 33px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 600;
-  letter-spacing: 1px;
-  color: rgb(10, 9, 9);
-  text-align: center;
-}
-
-.faq-questions p {
-  text-align: center;
-  font-size: 16px;
-  letter-spacing: 1px;
-}
 
 /*============= Contact =============*/
 
@@ -624,11 +589,6 @@ input {
     height: auto;
   }
 
-  /* FAQ */
-  .faq-questions {
-    width: 100%;
-  }
-
   /* Contact */
   .form-control {
     width: 100%;
@@ -668,13 +628,6 @@ input {
     width: 50%;
     height: auto;
   }
-
-  .faq-questions {
-    margin-left: 50%;
-    transform: translate(-50%);
-  }
-
-  /* Review */
 
   /* Contact */
   .form-control {
