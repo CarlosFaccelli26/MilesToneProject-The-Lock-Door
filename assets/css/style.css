@@ -205,7 +205,7 @@ ul {
 }
 
 .who-can-play-list p {
-  font-size: 24px;
+  font-size: 22px;
   letter-spacing: 1px;
   text-align: left;
 
@@ -315,19 +315,21 @@ ul {
   padding-top: 20px;
 }
 
-.addresses {
-  height: 300px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-
-.addresses h3 {
+.location h3 {
   font-size: 33px;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   letter-spacing: 1px;
+  text-align: center;
+}
+
+.addresses {
+  height: 150px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 50px;
 }
 
 .addresses p {
@@ -637,6 +639,16 @@ input {
     width: 100%;
   }
 
+  /* Locaton */
+  .addresses {
+    margin-bottom: 0;
+    margin-left: 50%;
+    transform: translate(-50%);
+    margin-top: 10px;
+    height: auto;
+    text-align: left;
+  }
+
   /* Reviews */
   .reviews {
     height: auto;
@@ -702,6 +714,16 @@ input {
     height: auto;
   }
 
+  /* Location */
+  .addresses {
+    margin-bottom: 0;
+    margin-left: 50%;
+    transform: translate(-50%);
+    margin-top: 10px;
+    height: auto;
+    text-align: left;
+  }
+
   /* Prices */
   .price-list {
     display: flex;
@@ -726,6 +748,16 @@ input {
 }
 
 @media screen and (max-width: 992px) {
+  /* Location */
+  .addresses {
+    margin-bottom: 0;
+    margin-left: 50%;
+    transform: translate(-50%);
+    margin-top: 10px;
+    height: auto;
+    text-align: left;
+  }
+
   /* Prices */
   .price-list {
     display: flex;
@@ -736,7 +768,7 @@ input {
   .price {
     margin-top: 10px;
   }
-  
+
   /* Footer */
   .copyright h5 {
     text-align: center;
