@@ -295,6 +295,7 @@ ul {
 }
 
 .accordion-panel p {
+  width: 100%;
   text-align: center;
   font-weight: 300;
   font-size: 15px;
@@ -710,8 +711,12 @@ input {
 
   /* Rooms */
   .card-rooms img {
-    width: 50%;
+    width: 100%;
     height: auto;
+  }
+
+  .accordion-panel {
+      width: 100%;
   }
 
   /* Location */
