@@ -381,38 +381,12 @@
 
     <!-- Custom Javascript -->
     <script>
-        // Google API
-        function initMap() {
-            var map = new google.maps.Map(document.getElementById('map'), {
-                zoom: 5,
-                center: {
-                    lat: -32.6005666,
-                    lng: -58.0279122
-                }
-            });
-            // Creating Locations
-            var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-            var locations = [
-                { lat: -34.68447788695522, lng: -55.69474062783808 },
-                { lat: -34.682690690374955, lng: -55.70749049893516 },
-                { lat: -34.69911739903683, lng: -55.51943811153038 },
-                { lat: -34.677567119090575, lng: -55.756902494106626 },
-            ]
-            //Creating markers
-            var markers = locations.map(function (location, i) {
-                return new google.maps.Marker({
-                    position: location,
-                    label: labels[i % labels.length]
-                });
-            });
-
-            var markerCluster = new MarkerClusterer(map, markers, {
-                imagePath:
-                    "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m"
-            });
-        }
+       
     </script>
 
+    <!-- Custom Javascript -->
+
+    <script src="assets/js/main.js"></script>
     <!-- Google API -->
     <script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
 
@@ -423,6 +397,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
         crossorigin="anonymous"></script>
+        
 </body>
 
 </html>
