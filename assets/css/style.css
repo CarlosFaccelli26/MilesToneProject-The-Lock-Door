@@ -711,12 +711,12 @@ input {
 
   /* Rooms */
   .card-rooms img {
-    width: 100%;
+    width: 75%;
     height: auto;
   }
 
   .accordion-panel {
-      width: 100%;
+      width: 75%;
   }
 
   /* Location */
