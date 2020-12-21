@@ -1,3 +1,9 @@
+// Changing ackground color of navar when scrolling
+$(window).scroll(function() {
+    $('nav').toggleClass('scrolled', $(this).scrollTop() > 80);
+    $('.nav-lin').toggleClass('scrolled', $(this).scrollTop() > 800);
+});
+
 // Google API
 function initMap() {
   var map = new google.maps.Map(document.getElementById("map"), {

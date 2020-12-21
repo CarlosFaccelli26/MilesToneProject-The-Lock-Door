@@ -68,6 +68,10 @@ ul {
   color: #1a1a1a;
 }
 
+.nav-bg.scrolled {
+  background-image: linear-gradient(360deg, rgba(17, 16, 16, 0.507), rgba(233, 71, 12, 0.692));
+}
+
 /*============= Home =============*/
 
 .home {
@@ -79,6 +83,7 @@ ul {
 }
 
 .home-info {
+  padding-top: 100px;
   height: 700px;
   display: flex;
   flex-direction: column;
