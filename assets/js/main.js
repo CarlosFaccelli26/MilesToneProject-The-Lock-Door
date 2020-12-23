@@ -1,7 +1,7 @@
 // Changing ackground color of navar when scrolling
 $(window).scroll(function() {
     $('nav').toggleClass('scrolled', $(this).scrollTop() > 80);
-    $('.nav-lin').toggleClass('scrolled', $(this).scrollTop() > 800);
+    $('.nav-link').toggleClass('scrolled', $(this).scrollTop() > 80);
 });
 
 // Google API
