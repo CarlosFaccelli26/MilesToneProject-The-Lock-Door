@@ -11,18 +11,19 @@ Easy and simple, just with one click you will have on your hand a piece of waht 
 
 - User Stories
 
-  - As a client ...
-       - I want a easy website to surf.
-       - I want to be able to have a look on the website an get as much information as I can.
-       - I want clear information to now where is the place based, the prices...
-       - I want to have the posibility to get in touch with. 
-       - It will be essential to get a proper description of the services. 
-       - It will be pretty interesting If as a client I have the oportunity to see reviews and some experiences of other people.
+  - As a future player of the game...
+       - I want to be able to have a easily navigation experience throughout the website. That means, I want to get as much information as I can get just on a click. I will be looking for prices, where they are based, or which rules I must follow. 
+    
+       - It will be essential to get a proper description of the services. At the same time I want to have the posibility to get in touch with them just in case I need further information about it. 
 
-    - As a owner...
-       - I need an eye catching website to impress the future clients. 
-       - I want a simple and unique website where the client will be able to have all the information just with a click. 
-       - I want to show to the future cients some reviews to let them know how our services are. 
+       - It will be pretty interesting If as a client I have the oportunity to see reviews and some experiences of other people. I will need to know more than one opinion to trust in the services to be sure It will be an amazing oportunity to have fun. 
+
+    - As the main manger of The lock door..
+       - I need an eye catching website to impress the future clients. As much interesting the website is, more people will be joining our games. 
+
+       - I want a simple and unique website where the client will be able to have all the information together without issues. The option to Get in touch with the service will be completely necesary because of the interest we have to give a personal service to the customers.
+
+       - I want to show to the future clients some reviews to let them know how our services are. I want to be able to have a feedback with the players to see how merry they are with the services or which detail we can imrpove for our future clients. 
   
 
   
@@ -83,26 +84,19 @@ Website was checked on W3C markup (html), W3C CSS (CSS) and Syntax Validator Esp
 
     ### Testing UX Stories.
 
-    1. As a client ...
-        - I want a easy website to surf.
-            - As you can see while you are surfing on the website, you will feel completly confortable with. The website is easy and simple, therefore, the user story and the the future experiences of the users will be joined. 
+    1. As a future player...
+        - I want to be able to have a easily navigation experience throughout the website. 
+            a) As you can see while you are surfing on the website, you will feel completly confortable with. The website is easy and simple, therefore, the user story and the the future experiences of the users will be joined. 
 
-       - I want to be able to have a look on the website an get as much information as I can.
+       - It will be essential to get a proper description of the services. At the same time I want to have the posibility to get in touch with them just in case I need further information about it. 
             -   As our website has been splited in different sections, the users will be able to have all the information organize in each section. As you can see, on our website they will be able to find prices of the services, locations, rules, a brief description of the play and also a explanation of the rooms where they will be playing... However to make sure about the user won't have any doubt,we have created a section where they can get in touch with the service If they want further information. 
 
-       - I want clear information to now where is the place based, the prices...
+       - It will be pretty interesting If as a client I have the oportunity to see reviews and some experiences of other people. 
+
             - All the information in our website is clear and simple so everybody will be able to understand how the service is working. We wanted to be clear and honest with the user so they will have all the information on the website: prices, rules, locations, reviews...
 
-       - I want to have the posibility to get in touch with. 
-            - As a proper website, we bring the posibility to the user to get in touch with If they have any doubt or they require further information about the services.
-
-       - It will be essential to get a proper description of the services. 
-            - We want to let the people know how much fun they can have with us, so as you can see when you press 'home' you will have an attractive text to have an idea what 'The lock door' is. However If the user press 'About' they will find a detailed description of what it is a scape room, how they can play, wich rules they must follow... 
-
-       - It will be pretty interesting If as a client I have the oportunity to see reviews and some experiences of other people.
-            - One of the most important points for the users are the previous reviews. Our website keep some of that reviews to help the user to know how the service works. Also thanks to the reviews they will feel more confortable If finally they decide to practice this activity. 
-
-    2. As a owner...
+       - 
+    2. - As the main manger of The lock door..
        - I need an eye catching website to impress the future clients. 
             - When we were designing the website we were very careful when we picked the pictures, images and texts. We have designed the website to create some doubts and questions to the users about what they will find while they will be surginf on our web. Also the name of the servide **The lock door** could be pretty enigmatic, that is the reason why we truly believe the usser will be surprise and completely hook up to our website. 
 
