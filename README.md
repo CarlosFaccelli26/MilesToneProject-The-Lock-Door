@@ -1,6 +1,11 @@
 # The Lock Door Escape Room
+Would you imagine to be completely lock inside of a roon full of misteries? 
+As you can see on this website, **The Lock Door** is a scape room where the people will be able to enjoy and spend their free time having a ball with friends or family. 
+Along this website we will bring your services one step closer to your users. Therefore we will put together all the information your users will need in a cool and an attractive website. 
+Easy and simple, just with one click you will have on your hand a piece of waht a escape room is. 
 
-Welcome to my second project Interactive Front End Developmment. This project will be about a website for **The Lock Door Escape Room** It's an amazing website with a beatuiful layout, contrast of colors and amazing stories wich in the participants will be really greatfull to try the stories of each room.
+
+
 
 ## User Experience (UX)
 
