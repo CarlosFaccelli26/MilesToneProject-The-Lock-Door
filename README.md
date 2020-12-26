@@ -23,7 +23,7 @@ Easy and simple, just with one click you will have on your hand a piece of waht 
 
        - I want a simple and unique website where the client will be able to have all the information together without issues. The option to Get in touch with the service will be completely necesary because of the interest we have to give a personal service to the customers.
 
-       - I want to show to the future clients some reviews to let them know how our services are. I want to be able to have a feedback with the players to see how merry they are with the services or which detail we can imrpove for our future clients. 
+       - I want to show to the future clients some reviews to let them know how our services are. I want to be able to have a feedback with the players to see how merry they are with the services or which detail we can imrpove for our future clients. Therefore I want to give them the posisbility to check our social media. 
   
 
   
@@ -84,40 +84,44 @@ Website was checked on W3C markup (html), W3C CSS (CSS) and Syntax Validator Esp
 
     ### Testing UX Stories.
 
-    1. As a future player...
-        - I want to be able to have a easily navigation experience throughout the website. That means, I want to get as much information as I can get just on a click.
-            + Once the users get into the website they will find the name of the service **The lock door** with the logo, which will be the first clue to know what they will find along the website. 
+  1. As a future player...
+      - I want to be able to have a easily navigation experience throughout the website. That means, I want to get as much information as I can get just on a click.
+          + Once the users get into the website they will find the name of the service **The lock door** with the logo, which will be the first clue to know what they will find along the website. 
 
-            + Since the first moment they will have the posisbility to cheek the navigation bar to go and have a look to the different pages where they will find all the information they are looking for. However they have the posibility to scroll down and see each page one by one.
+          + Since the first moment they will have the posisbility to cheek the navigation bar to go and have a look to the different pages where they will find all the information they are looking for. However they have the posibility to scroll down and see each page one by one.
 
-            + Along each page or section the user will be able to find all the information he will need to know before playing: prices, locations, rules, wich room can suits him better to play... All of this in a simple and easy way without any issues. 
+          + Along each page or section the user will be able to find all the information he will need to know before playing: prices, locations, rules, wich room can suits him better to play... All of this in a simple and easy way without any issues. 
 
-            + The colours and the texts have been selected very carefully to caught the attention of the user. Therefore the hero image is in conection to the information they will find along the site. 
+          + The colours and the texts have been selected very carefully to caught the attention of the user. Therefore the hero image is in conection to the information they will find along the site. 
 
        - It will be essential to get a proper description of the services. At the same time I want to have the posibility to get in touch with them just in case I need further information about it. 
 
-            + As you can check when you are surfing on the website the first thing you will see is the hero image, just beside the picture you have a short text. Thanks to this text the user will know since the first moment what he has to do. Nevertheless once the user press 'About' or scroll down until the next section, he will have the posisbility to read a detailed explanation of what a scape room is, how you can play, wich rules must been followed by the players, and last but not least who is allow to play the game. 
+          + As you can check when you are surfing on the website the first thing you will see is the hero image, just beside the picture you have a short text. Thanks to this text the user will know since the first moment what he has to do. Nevertheless once the user press 'About' or scroll down until the next section, he will have the posisbility to read a detailed explanation of what a scape room is, how you can play, wich rules must been followed by the players, and last but not least who is allow to play the game. 
 
-            + The user will find the option to get in touch with the service, when they scroll down until the end of the website or when they press 'contact' on the navigation bar. If you do not fill all the blanks you won't be able to submit your query.
+          + The user will find the option to get in touch with the service, when they scroll down until the end of the website or when they press 'contact' on the navigation bar. If you do not fill all the blanks you won't be able to submit your query.
             
 
        - It will be pretty interesting If as a client I have the oportunity to see reviews and some experiences of other people. I will need to know more than one opinion to trust in the services.
 
-            + The future player will have the option to see what people think about us and our rooms or services. This will be handy for the user as it will help him to make his own conclussions and decisions. 
+          + The future player will have the option to see what people think about us and our rooms or services. This will be handy for the user as it will help him to make his own conclussions and decisions. 
 .
           
     2. As the main manger of The lock door..
         - I need an eye catching website to impress the future clients.As much interesting the website is, more people will be joining our games. 
 
+            + Once you get into the site, you will realise how all the colours, images or texs, have been picked very carefully achieving the goal of cauth the attention of the user. All this elemnents are enigmatic with the purpose to be hook up to the website, as a result of this the users will have a new curiosity which bring them to join the play and have some fun with friends and family. 
+
         
        - I want a simple and unique website where the client will be able to have all the information together without issues. The option to Get in touch with the service will be completely necesary because of the interest we have to give a personal service to the customers.
 
-       - I want to show to the future clients some reviews to let them know how our services are. I want to be able to have a feedback with the players to see how merry they are with the services or which detail we can imrpove for our future clients. 
+            + The services we bring to our clients as webdevelopers are unique and individual for each customer so that means the website will be unique as well. 
+            
+             + As we exlpained before, the website is easy to use, you will have the posibility to press on the different options of the navigation bar, or If it will be easier for you, you just need to scroll down to see each section were you will find the information you will be showing to the future players. 
+             
+             + As all the information have been puted together along the website. Also you will fin what you are asking for; the last section will be the fill which the user must complete to get in touch with your services in the case they have an issue or they just want to know more details about your scape room. 
+
+       - I want to show to the future clients some reviews to let them know how our services are. I want to be able to have a feedback with the players to see how merry they are with the services or which detail we can imrpove for our future clients. Therefore I want to give them the posisbility to check our social media. 
   
-            - When we were designing the website we were very careful when we picked the pictures, images and texts. We have designed the website to create some doubts and questions to the users about what they will find while they will be surginf on our web. Also the name of the servide **The lock door** could be pretty enigmatic, that is the reason why we truly believe the usser will be surprise and completely hook up to our website. 
+            + One of the options you will find on the navigation bar is 'reviews', so that means the user will be able to see some opinions of your players, it will make the user trust on your servie. 
 
-       - I want a simple and an unique website where the client will be able to have all the information just with a click. 
-            - Our services as webdeveloper are unique and individual for each customer so that means the website will be unique as well. One of our goals is create something easy and simple following the idea of 'less is more'. You will have all the information you asked for in a simple design of website. 
-
-       - I want to show to the future clients some reviews to let them know how our services are. 
-            - As we explained before, We will bring some reviews to show the future users they can trust on the website and the services. 
+            + The different incons to get into the social media of the service, will be availabe on the footer of the website. You just need to click on it and It will display a different browser. 
