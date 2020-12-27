@@ -77,6 +77,34 @@ Easy and simple, just with one click you will have on your hand a piece of waht 
   8. [Balsamiq](https://balsamiq.com/wireframes/?gclid=Cj0KCQiAlZH_BRCgARIsAAZHSBkd367oC7MTQ3JSGyKp4-L14-RIxCOmcc_RS85PwgekpxOu6BzyCFcaAoDvEALw_wcB).
      - Used to create wireframes on desktop, tablet and mobile devices.
 
+## Features
+1. Responsive on all devices.
+
+2. Description section by section.
+![Home](assets/images/homeScreenShot.png)
+  - As you can see we have navigation bar at the top of the browser with a logo and seven links if you click on them it will bring you to the proper section. Navigation bar will be present through all the website allowing the user to go anywhhere that he wants.
+    Below the navbar we have the home section with a huge image an two texts the bigger text will be a catching sentence to bring the attention of the user, the second one will be a small description of what this game is about.
+    Also we can see a button which give you the chance to book a ticket for the game.
+
+![About](assets/images/aboutScreenShot.png)
+  - About section constist basically in rules that the users must follow, people who are allowed to play and a description of waht is an escape room.
+  As you can see navigation bar still present at the top of the browser.
+
+![Rooms](assets/images/roomsScreenShot.png)
+  - Rooms section is the most important because includes a description of each room. If you hover the mouse over the images it will show you a small description of the rooms.
+
+![Location](assets/images/locationScreenShot.png)
+  - Location section will show to the user where are **The Lock Door** are based. There is for addresses and a map rended bellow the addresses.
+
+![Location1](assets/images/locationScreenShot1.png)
+  - If you click on it, it will show you all the locations of the places that the game will take place.
+
+![reviews](assets/images/reviewsScreenShot.png)
+  - Reviews section will show to the user, what other players are saying about their experiences, it will give an idea to the user what kind of quality of services **The Lock Door** provide.
+
+![Contact&footer](assets/images/contact&footerScreenShot.png)
+  - The user will find a contact form which will ask for basic contact information although this information is necessary otherwise the form won't be submited.
+
 ## Testing
 Website was checked on W3C markup (html), W3C CSS (CSS) and Syntax Validator Esprima (Javascript) and showed no erros found.
 
@@ -87,8 +115,8 @@ Website was checked on W3C markup (html), W3C CSS (CSS) and Syntax Validator Esp
     ### Testing UX Stories.
 
   1. As a future player...
-        - I want to be able to have a easily navigation experience throughout the website. That means, I want to get as much information as I can get just on a click.
-            * Once the users get into the website they will find the name of the service **The lock door** with the logo, which will be the first clue to know what they will find along the website. 
+    - I want to be able to have a easily navigation experience throughout the website. That means, I want to get as much information as I can get just on a click.
+        * Once the users get into the website they will find the name of the service **The lock door** with the logo, which will be the first clue to know what they will find along the website. 
 
             * Since the first moment they will have the posisbility to cheek the navigation bar to go and have a look to the different pages where they will find all the information they are looking for. However they have the posibility to scroll down and see each page one by one.
 
