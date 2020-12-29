@@ -176,3 +176,11 @@ Website was checked on W3C markup (html), W3C CSS (CSS) and Syntax Validator Esp
     - **Old House** - Image by <a href="https://pixabay.com/users/herbert2512-2929941/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2759275">Herbert Aust</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2759275">Pixabay</a>
 
     - **Reviews bg** - Image by <a href="https://pixabay.com/users/clockedindk-1934179/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1155620">Clockedin dk</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1155620">Pixabay</a>
+  
+  - Project was based on this website: [Incognito Escape Room](https://incognitoescaperoom.ie/) 
+
+  - Sticky navigation based on this video: [Fixed-top Nav](https://www.youtube.com/watch?v=xYA2bcEHKg8&t=511s)
+
+  - I need to thanks my mentor [Rahul](https://codeinstitute.net/), who gave me the idea of create an overlay on rooms images. Also the info about overlay i found it on: [Material Desgin for Bootstrap](https://mdbootstrap.com/).
+
+  - I need to thank to [Matt Rudge](https://codeinstitute.net/) for teach how to use [Google Maps API](https://cloud.google.com/maps-platform/) and how to implement on the my project.
