@@ -165,7 +165,6 @@ ul {
   background-image: linear-gradient(90deg, black, rgb(41, 36, 36));
   opacity: 0.8;
   border-radius: 10px;
-  height: 450px;
   margin-top: 50px;
 }
 
@@ -179,18 +178,23 @@ ul {
 }
 
 .rules ul {
-  height: 300px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  height: auto;
 }
 
 .list-rules {
-  color: #fff;
   list-style: none;
-  margin-left: 20px;
   margin-top: 10px;
-  font-size: 24px;
+}
+
+.list-rules a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.list-rules p {
+    color: #fff;
+    font-size: 18px;
 }
 
 .who-can-play {
@@ -264,7 +268,7 @@ ul {
   margin-bottom: 20px;
 }
 
-.accordion-panel {
+.info-text {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -282,11 +286,11 @@ ul {
   padding: 10px;
 }
 
-.accordion-panel:hover {
+.info-text:hover {
   background-color: rgba(87, 80, 80, 0.555);
 }
 
-.accordion-panel p {
+.info-text p {
   width: 100%;
   text-align: center;
   font-weight: 300;
@@ -297,7 +301,7 @@ ul {
   transition: all 0.5s ease-out;
 }
 
-.accordion-panel p:hover {
+.info-text p:hover {
   color: #fff;
 }
 
