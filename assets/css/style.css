@@ -253,8 +253,7 @@ ul {
 }
 
 .who-can-play p i:hover {
-    font-size: 3.2rem;
-    color: black;
+    color: rgb(255, 81, 0);
 }
 
 /*============= Rooms =============*/
@@ -632,6 +631,10 @@ input {
 
   .rules ul li {
     text-align: left;
+    margin: 0;
+  }
+
+  .who-can-play-list {
     margin: 0;
   }
 
