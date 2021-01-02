@@ -179,7 +179,7 @@ ul {
 
 .rules ul {
   height: auto;
-  padding: 20px;
+  padding: 5px;
 }
 
 .list-rules {
@@ -189,18 +189,18 @@ ul {
 }
 
 .accordion {
+    background-color: transparent;
     color: #fff;
     text-decoration: none;
     font-size: 20px;
-    background: rgb(255, 81, 0);
     padding: 10px 20px;
     border-radius: 10px;
     transition: .5s ease-out;
+    cursor: pointer;
 }
 
-.accordion:hover {
-    background: rgba(255, 81, 0, 0.726);
-    color: #fff;
+.active, .accordion:hover {
+    color: rgb(255, 81, 0);
 }
 
 .accordion-panel{
@@ -214,12 +214,12 @@ ul {
     text-align: left;
     font-size: 18px;
     color: #fff;
+    padding: 0 25px;
 }
 
 .who-can-play {
-  margin-top: 50px;
+  margin-top: 25%;
   margin-bottom: 10px;
-  height: 450px;
   background-color: rgba(224, 224, 6, 0.877);
   border-radius: 10px;
 }
@@ -230,20 +230,31 @@ ul {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   padding-top: 15px;
+  margin-bottom: 20px;
 }
 
 .who-can-play-list {
-  height: 300px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  height: auto;
   margin-left: 25px;
+  padding: 0 20px;
 }
 
 .who-can-play-list p {
-  font-size: 22px;
+  font-size: 18px;
   letter-spacing: 1px;
-  text-align: left;
+    text-align: center;
+}
+
+.who-can-play p i {
+    font-size: 3rem;
+    transition: .5s ease-out;
+    cursor: pointer;
+    color: rgb(85, 85, 85);
+}
+
+.who-can-play p i:hover {
+    font-size: 3.2rem;
+    color: black;
 }
 
 /*============= Rooms =============*/

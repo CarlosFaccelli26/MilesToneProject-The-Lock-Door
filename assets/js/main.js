@@ -11,10 +11,12 @@ var acc = document.getElementsByClassName('accordion');
 var i;
     // Bucle For
 for (i = 0; i < acc.length; i++) {
-    acc[i].addEventListener('click', ()=> {
+    // Event listener when i click on accrodion class
+    acc[i].addEventListener('click', function() {
+        this.classList.toggle('active');
         var panel = this.nextElementSibling;
-        // Conditional if
-        if (panel.style.maxHeight) {
+        // Conditional If
+        if(panel.style.maxHeight) {
             panel.style.maxHeight = null;
         } else {
             panel.style.maxHeight = panel.scrollHeight + 'px';
