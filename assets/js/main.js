@@ -1,8 +1,27 @@
-// Changing ackground color of navar when scrolling
+
+// Changing background color of navar when scrolling
 $(window).scroll(function() {
     $('nav').toggleClass('scrolled', $(this).scrollTop() > 80);
     $('.nav-link').toggleClass('scrolled', $(this).scrollTop() > 80);
 });
+
+
+// Creating Accordion for Rules
+var acc = document.getElementsByClassName('accordion');
+var i;
+    // Bucle For
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener('click', ()=> {
+        var panel = this.nextElementSibling;
+        // Conditional if
+        if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+        } else {
+            panel.style.maxHeight = panel.scrollHeight + 'px';
+        }
+    });
+}
+
 
 // Google API
 function initMap() {

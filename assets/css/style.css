@@ -179,22 +179,41 @@ ul {
 
 .rules ul {
   height: auto;
+  padding: 20px;
 }
 
 .list-rules {
   list-style: none;
   margin-top: 10px;
+  margin-bottom: 40px;
 }
 
-.list-rules a {
+.accordion {
     color: #fff;
     text-decoration: none;
     font-size: 20px;
+    background: rgb(255, 81, 0);
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: .5s ease-out;
 }
 
-.list-rules p {
+.accordion:hover {
+    background: rgba(255, 81, 0, 0.726);
     color: #fff;
+}
+
+.accordion-panel{
+    margin-top: 10px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+.accordion-panel p {
+    text-align: left;
     font-size: 18px;
+    color: #fff;
 }
 
 .who-can-play {
@@ -706,7 +725,7 @@ input {
     height: auto;
   }
 
-  .accordion-panel {
+  .info-text {
     width: 75%;
   }
 
