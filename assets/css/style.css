@@ -69,11 +69,7 @@ ul {
 }
 
 .nav-bg.scrolled {
-  background-image: linear-gradient(
-    360deg,
-    rgba(17, 16, 16, 0.529),
-    rgba(233, 71, 12, 0.591)
-  );
+ background-image: linear-gradient(360deg, rgb(17, 16, 16), rgb(233, 71, 12));
 }
 
 .nav-link.scrolled {
@@ -522,7 +518,7 @@ input {
 .form-control textarea {
   margin-left: 50%;
   transform: translate(-50%);
-  width: 80%;
+  width: 90%;
   border-radius: 12px;
   outline: none;
 }
@@ -704,6 +700,10 @@ input {
     height: auto;
   }
 
+.form-control textarea {
+    width: 80%;
+}
+
   /* Footer */
   .copyright h5 {
     text-align: center;
@@ -769,6 +769,10 @@ input {
     height: auto;
   }
 
+  .form-control textarea {
+    width: 80%;
+  }
+
   /* Footer */
   .copyright h5 {
     text-align: center;
@@ -795,6 +799,11 @@ input {
 
   .price {
     margin-top: 10px;
+  }
+
+  /* Contact */
+   .form-control textarea {
+    width: 80%;
   }
 
   /* Footer */
