@@ -646,17 +646,17 @@ input {
     font-size: 20px;
   }
 
-  .card-rooms img {
+  .card-rooms figure img {
     width: 100%;
     height: auto;
   }
 
-  .btn-learnmore {
-    padding: 5px 35px;
-  }
-
   .info-text {
     width: 100%;
+  }
+
+  .btn-learnmore {
+    padding: 5px 35px;
   }
 
   /* Locaton */
@@ -733,7 +733,7 @@ input {
   }
 
   /* Rooms */
-  .card-rooms img {
+  .card-rooms figure img {
     width: 75%;
     height: auto;
   }
