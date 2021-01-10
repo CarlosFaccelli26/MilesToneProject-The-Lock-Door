@@ -18,12 +18,11 @@
     <link rel="stylesheet" href="assets/css/style.css">
 
     <!-- Email JS -->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
     </script>
-    <script type="text/javascript">
+    <script>
         (function () {
             emailjs.init("user_clkUUeOaAbYkp8OLFrWcm");
-            emailjs.send("service_wmwdfad", "template_jaemmth");
         })();
     </script>
 </head>
@@ -370,26 +369,26 @@
                     <h3>Contact</h3>
                 </div>
             </div>
-            <form class="form-control">
+            <form onsubmit="return sendMail(this);" method="POST" class="form-control" id="contact-form">
                 <div class="row">
                     <div class="col-sm-12 col-md-12 col-lg-6">
-                        <input type="text" placeholder="First Name" required>
+                        <input type="text" name="name" placeholder="First Name" required>
                         <input type="text" placeholder="Last Name" required>
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-6">
-                        <input type="email" placeholder="E-mail" required>
+                        <input type="email" name="emailaddress" placeholder="E-mail" required>
                         <input type="tel" placeholder="Mobile Phone" required>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-12">
-                        <textarea name="textarea" cols="100" rows="10" placeholder="Write your message"
+                        <textarea cols="100" rows="10" name="buyticket" placeholder="Write your message" 
                             required></textarea>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-12">
-                        <button class="btn btn-submit">
+                        <button class="btn btn-submit" name="submit">
                             submit
                         </button>
                     </div>
@@ -445,6 +444,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
         crossorigin="anonymous"></script>
+    <!-- Email js -->
+    <script src="assets/js/email.js"></script>
 
 </body>
 
