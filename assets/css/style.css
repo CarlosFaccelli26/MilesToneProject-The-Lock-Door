@@ -497,7 +497,6 @@ ul {
 }
 
 .form-control {
-  /*background-color: rgb(218, 206, 206);*/
   min-height: 400px;
   display: flex;
   flex-direction: column;
