@@ -204,11 +204,12 @@ ul {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease-out;
+    margin-left: 20px;
 }
 
 .accordion-panel p {
     text-align: left;
-    font-size: 18px;
+    font-size: 16px;
     color: #fff;
     padding: 0 25px;
 }
