@@ -3,8 +3,6 @@ $(document).ready(function() {
     // Adding smooth scrolling to nav links
     $('a').on('click', function(e) {
         if(this.hash !== "") {
-            // Prevent default anchor click behaviour
-            e.preventDefault();
 
             // Storing hash
             var hash = this.hash;
@@ -12,7 +10,7 @@ $(document).ready(function() {
             // Animation of scrolling behaviour
             $('html, body').animate({
                 scrollTop: $(hash).offset().top
-            }, 2000, function(){
+            }, 800, function(){
                 window.location.hash = hash;
             });
         }
