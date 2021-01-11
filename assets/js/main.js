@@ -10,7 +10,7 @@ $(document).ready(function() {
             // Animation of scrolling behaviour
             $('html, body').animate({
                 scrollTop: $(hash).offset().top
-            }, 800, function(){
+            }, 100, function(){
                 window.location.hash = hash;
             });
         }
