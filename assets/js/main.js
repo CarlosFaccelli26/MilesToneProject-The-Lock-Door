@@ -1,3 +1,23 @@
+// Adding smooth scroll behavior
+$(document).ready(function() {
+    // Adding smooth scrolling to nav links
+    $('a').on('click', function(e) {
+        if(this.hash !== "") {
+            // Prevent default anchor click behaviour
+            e.preventDefault();
+
+            // Storing hash
+            var hash = this.hash;
+
+            // Animation of scrolling behaviour
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 2000, function(){
+                window.location.hash = hash;
+            });
+        }
+    });
+});
 
 // Changing background color of navar when scrolling
 $(window).scroll(function() {
