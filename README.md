@@ -163,6 +163,55 @@ Website was checked on W3C markup (html), W3C CSS (CSS) and Syntax Validator Esp
 
           * Once the user is in the location section he will find a map where the future player will be able to see the four different locations we have availabe for.
 
+### Interactive elemnents
+#### Accordion
+
+  - Accordion implemented in rules section:
+    ![Accordion first phase](assets/images/screenshots/accordion1.png)
+    - These are the rules implemented on the project, once we clicke in one of each segments will display a small description of the rule that we want to get information of.
+
+    ![Accorion in motion](assets/images/screenshots/accordion2.png)
+    - Here we have the first rule display as we can see it will show a small description of what's about.
+
+    ![Accordion in motion](assets/images/screenshots/accordion3.png)
+    - Here is the second rules display showing more information.
+
+    ![Accoridon in motion](assets/images/screenshots/accordion4.png)
+    - Another rule, displaying information.
+
+    ![Accoridon in motion](assets/images/screenshots/accordion5.png)
+    - Last rules displaying information.
+
+    *I need to mention that when i click on a rule it does not close other rules that is displayed*
+
+#### Google Map API
+  - Google Maps implemented on location section
+    ![Map](assets/images/screenshots/map1.png)
+    - As we can see I choose 4 locations located in my country Uruguay in the place that i grew up. The code was based on the tutorial that [Code Institute](https://codeinstitute.net/) provide.
+    
+    ![Map](assets/images/screenshots/map.png)
+    - When i click on the blue number 4, will display automatically the four locations.
+
+#### Contacr form
+  - Email js was implemented on the contact section, again code was based on the tutorial that [Code Institute](https://codeinstitute.net/) provide.
+  ![Email JS](assets/images/screenshots/contact1.png)
+  - If we try to submit the form without filling up the inputs the form won't submit. All inputs must be filled to the form be submitted, as i show in the next pictures.
+  ![Email JS](assets/images/screenshots/contact2.png)
+  ![Email JS](assets/images/screenshots/contact3.png)
+  ![Email JS](assets/images/screenshots/contact4.png)
+  ![Email JS](assets/images/screenshots/contact5.png)
+  ![Email JS](assets/images/screenshots/contact6.png)
+  - As we can see any of the inputs must be fill in, once we fill all the inputs and we submit, it will show an alert which will give us the text of **Message sent succesfully**
+
+#### Fixed top navbar
+  - Implemented on the navbar and it will stick to the top through all the website, code was based on a video on [Youtube](http://www.youtube.com) an the youtube chanel is [Fixed-top Nav](https://www.youtube.com/watch?v=xYA2bcEHKg8&t=511s)
+
+#### Scrolling behaviour
+  - I decide to add scroll behaviour due in safari the CSS property of **scroll behaviour** it is not supported. I found a problem which is the following, on the code I write some margin of seconds that the scroll should delay. This delay works perfectly on safaria however when I run the project on Chrome it does not work as I expected, so I needed to reduce the time. Basically in Chrome will work perfectly, but on safari it won't. It's gonna be something taht i would like to make it right in future projects.
+
+
+
+
 # Credits
   - Images were taken from [PixaBay](https://pixabay.com/).
     - **Hero image** - Image by <a href="https://pixabay.com/users/herm-1025437/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=776297">Herm</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=776297">Pixabay</a>
