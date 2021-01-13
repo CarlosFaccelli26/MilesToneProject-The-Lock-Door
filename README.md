@@ -81,28 +81,28 @@ Easy and simple, just with one click you will have on your hand a piece of waht 
 1. Responsive on all devices.
 
 2. Description section by section.
-![Home](assets/images/homeScreenShot.png)
+![Home](assets/images/screenshots/Screenshot1.png)
   - As you can see we have navigation bar at the top of the browser with a logo and seven links if you click on them it will bring you to the proper section. Navigation bar will be present through all the website allowing the user to go anywhhere that he wants.
     Below the navbar we have the home section with a huge image an two texts the bigger text will be a catching sentence to bring the attention of the user, the second one will be a small description of what this game is about.
     Also we can see a button which give you the chance to book a ticket for the game.
 
-![About](assets/images/aboutScreenShot.png)
+![About](assets/images/screenshots/Screenshot2.png)
   - About section constist basically in rules that the users must follow, people who are allowed to play and a description of waht is an escape room.
   As you can see navigation bar still present at the top of the browser.
 
-![Rooms](assets/images/roomsScreenShot.png)
+![Rooms](assets/images/screenshots/Screenshot3.png)
   - Rooms section is the most important because includes a description of each room. If you hover the mouse over the images it will show you a small description of the rooms.
 
-![Location](assets/images/locationScreenShot.png)
+![Location](assets/images/screenshots/Screenshot4.png)
   - Location section will show to the user where are **The Lock Door** are based. There is for addresses and a map rended bellow the addresses.
 
-![Location1](assets/images/locationScreenShot1.png)
+![Location1](assets/images/screenshots/Screenshot5.png)
   - If you click on it, it will show you all the locations of the places that the game will take place.
 
-![reviews](assets/images/reviewsScreenShot.png)
+![reviews](assets/images/screenshots/Screenshot6.png)
   - Reviews section will show to the user, what other players are saying about their experiences, it will give an idea to the user what kind of quality of services **The Lock Door** provide.
 
-![Contact&footer](assets/images/contact&footerScreenShot.png)
+![Contact&footer](assets/images/screenshots/Screenshot7.png)
   - The user will find a contact form which will ask for basic contact information although this information is necessary otherwise the form won't be submited.
 
 ## Testing
