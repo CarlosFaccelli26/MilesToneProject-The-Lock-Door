@@ -166,7 +166,8 @@ Website was checked on W3C markup (html), W3C CSS (CSS) and Syntax Validator Esp
 ### Interactive elemnents
 #### Accordion
 
-  - Code was takken from [W3school](https://www.w3schools.com/howto/howto_js_accordion.asp)
+  - Code was takken from [W3school](https://www.w3schools.com/default.asp)
+
     Accordion implemented in rules section:
     ![Accordion first phase](assets/images/screenshots/accordion1.png)
     - These are the rules implemented on the project, once we click in one of each segments will display a small description of the rule that we want to get information of.
@@ -209,11 +210,54 @@ Website was checked on W3C markup (html), W3C CSS (CSS) and Syntax Validator Esp
 
 #### Scrolling behaviour
   - I decide to add scroll behaviour due in safari the CSS property of **scroll behaviour** it is not supported. I found a problem which is the following, on the code I write some margin of seconds that the scroll should delay. This delay works perfectly on safaria however when I run the project on Chrome it does not work as I expected, so I needed to reduce the time. Basically in Chrome will work perfectly, but on safari it won't. It's gonna be something taht i would like to make it right in future projects.
+  Code was takken again from [W3school](https://www.w3schools.com/default.asp)
 
 
+## Deployment
+#### Process that i follow to deploy my project Live.
+  - First I Logged in on [GitHub](https://github.com/). Once I logged on Github clicked on my repository I will leave the link [The Lock Door](https://github.com/CarlosFaccelli26/escapeRoomMilestoneProject).
+
+  - After finding my repository I can click on settings as I show in the next picture:
+  ![Deployment](assets/images/screenshots/deployment.png)
+
+  - Next step will be scroll down until we find a segment wich will be Github pages as I show in the next picture ![Deployment1](assets/images/screenshots/deployment1.png)
+
+  - Last step will be change the brand to master once again I post a picture ![deployment2](assets/images/screenshots/deployment2.png)
+
+#### Clone repository.
+*Ways of cloning my repository*
+
+  - Using Github Desktop
+    -  You can go to my repository I'll leave the link [The Lock Door](https://github.com/CarlosFaccelli26/escapeRoomMilestoneProject). Once you get there you need to click on "Code", after will give you the option of open with Github desktop, and there you can open with your own **Code Editor**. Following will be some pictures showing the process.
+    ![Clone Repository](assets/images/screenshots/clone-repository.png)
+    ![Clone Repository 1](assets/images/screenshots/clone-repository1.png)
+
+  - Using Git
+    - First we find my repository [The Lock Door](https://github.com/CarlosFaccelli26/escapeRoomMilestoneProject)
+
+    - Once there we click on "Code" will display a small window, then we click on the link that Github provide
+    ![Clone Repository Git](assets/images/screenshots/clone-repository-git.png)
+
+    - Once we have the link we should go to our **Code Editor** and in the terminal we must type *git clone* and paste the link that we got from github. 
+
+    - Following I will show pictures of the process
+      - Opening Code Editor
+    ![Clone Repository 1](assets/images/screenshots/clone-repository-git1.png)
+
+      - Creating a Folder
+      ![Clone Respository 2](assets/images/screenshots/clone-repository-git2.png)
+    
+      - Opening Terminal
+      ![Clone Repository 3](assets/images/screenshots/clone-repository-git3.png)
+
+      - Using git clone command
+      ![Clone Repository 4](assets/images/screenshots/clone-repository-git4.png)
+
+      - Getting Project clone from Github
+      ![Clone Repository 5](assets/images/screenshots/clone-repository-git5.png)
 
 
-# Credits
+## Credits
   - Images were taken from [PixaBay](https://pixabay.com/).
     - **Hero image** - Image by <a href="https://pixabay.com/users/herm-1025437/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=776297">Herm</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=776297">Pixabay</a>
 
