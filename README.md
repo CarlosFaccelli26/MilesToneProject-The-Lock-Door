@@ -166,9 +166,10 @@ Website was checked on W3C markup (html), W3C CSS (CSS) and Syntax Validator Esp
 ### Interactive elemnents
 #### Accordion
 
-  - Accordion implemented in rules section:
+  - Code was takken from [W3school](https://www.w3schools.com/howto/howto_js_accordion.asp)
+    Accordion implemented in rules section:
     ![Accordion first phase](assets/images/screenshots/accordion1.png)
-    - These are the rules implemented on the project, once we clicke in one of each segments will display a small description of the rule that we want to get information of.
+    - These are the rules implemented on the project, once we click in one of each segments will display a small description of the rule that we want to get information of.
 
     ![Accorion in motion](assets/images/screenshots/accordion2.png)
     - Here we have the first rule display as we can see it will show a small description of what's about.
@@ -195,7 +196,7 @@ Website was checked on W3C markup (html), W3C CSS (CSS) and Syntax Validator Esp
 #### Contacr form
   - Email js was implemented on the contact section, again code was based on the tutorial that [Code Institute](https://codeinstitute.net/) provide.
   ![Email JS](assets/images/screenshots/contact1.png)
-  - If we try to submit the form without filling up the inputs the form won't submit. All inputs must be filled to the form be submitted, as i show in the next pictures.
+  - If we try to submit the form without filling up the inputs the form won't submit. All inputs must be filled to the form be submitted, as I show in the next pictures.
   ![Email JS](assets/images/screenshots/contact2.png)
   ![Email JS](assets/images/screenshots/contact3.png)
   ![Email JS](assets/images/screenshots/contact4.png)
