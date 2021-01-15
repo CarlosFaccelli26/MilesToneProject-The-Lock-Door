@@ -5,6 +5,8 @@ Along this website we will bring your services one step closer to your users. Th
 Easy and simple, just with one click you will have on your hand a piece of waht a escape room is. 
 
 
+![MockUps](assets/images/screenshots/Mockups.png)
+
 **You can see live project [here](https://carlosfaccelli26.github.io/escapeRoomMilestoneProject/)**
 
 ## User Experience (UX)
@@ -71,6 +73,8 @@ Easy and simple, just with one click you will have on your hand a piece of waht 
      - Used to store the project.
   8. [Balsamiq](https://balsamiq.com/wireframes/?gclid=Cj0KCQiAlZH_BRCgARIsAAZHSBkd367oC7MTQ3JSGyKp4-L14-RIxCOmcc_RS85PwgekpxOu6BzyCFcaAoDvEALw_wcB).
      - Used to create wireframes on desktop, tablet and mobile devices.
+  9. [Am i Responsive](http://ami.responsivedesign.is/#)
+     - Used to create a nice picture of my Project displayed on mobile, tablet and desktop.
 
 ## Features
 1. Responsive on all devices.
