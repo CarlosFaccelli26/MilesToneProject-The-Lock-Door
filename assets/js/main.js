@@ -1,7 +1,7 @@
 // Adding smooth scroll behavior
 $(document).ready(function() {
     // Adding smooth scrolling to nav links
-    $('a').on('click', function(e) {
+    $('a').on('click', function() {
         if(this.hash !== "") {
 
             // Storing hash

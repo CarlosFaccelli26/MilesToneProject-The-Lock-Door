@@ -39,17 +39,17 @@ Easy and simple, just with one click you will have on your hand a piece of waht 
   - Typography
     - Fonts used were Poppins as a general font through website and Roboto for headers and sub-headers.
 
-  - Wireframes
+  - Wireframes [View](assets/wireframes/EscapeRoom.bmpr)
 
 ## Technologies used
 
   ### Languages Used, Wireframes and programs
 
 - [HTML](https://en.wikipedia.org/wiki/HTML#:~:text=Hypertext%20Markup%20Language%20(HTML)%20is,scripting%20languages%20such%20as%20JavaScript.).
-    - Used to create the content of the website. [View](assets/images/screenshots/html-validator.png)
+    - Used to create the content of the website.
 
 - [CSS](https://en.wikipedia.org/wiki/CSS).
-    - Used to give the attractive design of the website. [View](assets/images/screenshots/css-validator)
+    - Used to give the attractive design of the website.
 
 - [Javascript](https://en.wikipedia.org/wiki/JavaScript).
     - Used to make the website interactive.
@@ -105,7 +105,9 @@ Website was checked on W3C markup (html), W3C CSS (CSS) and Syntax Validator Esp
 
   - [Esprima](https://esprima.org/demo/validate.html)
   - [W3CHTML](https://validator.w3.org/)
+    - [View](assets/images/screenshots/html-validator.png)
   - [WRCCSS](https://jigsaw.w3.org/css-validator/)
+    - [View](assets/images/screenshots/css-validator.png)
 
 ### Testing UX Stories.
 
