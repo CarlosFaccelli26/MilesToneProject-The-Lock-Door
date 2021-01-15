@@ -103,7 +103,8 @@ Easy and simple, just with one click you will have on your hand a piece of waht 
 ## Testing
 Website was checked on W3C markup (html), W3C CSS (CSS) and Syntax Validator Esprima (Javascript) and showed no erros found.
 
-  - [Esprima](https://esprima.org/demo/validate.html)
+  - [JSHint](https://jshint.com/)
+    - [View](assets/images/screenshots/javascript-testing.png), [View](assets/images/screenshots/javascript-testing1.png), [View](assets/images/screenshots/javascript-testing2.png)
   - [W3CHTML](https://validator.w3.org/)
     - [View](assets/images/screenshots/html-validator.png)
   - [WRCCSS](https://jigsaw.w3.org/css-validator/)

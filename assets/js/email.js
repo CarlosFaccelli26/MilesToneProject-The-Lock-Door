@@ -6,11 +6,11 @@ function sendMail(contactForm) {
     })
     .then (
         function(response) {
-            alert('Message sent succesfully', response)
+            alert('Message sent succesfully', response);
         },
         function(error) {
-            alert('Something went wrong, try again', error)
+            alert('Something went wrong, try again', error);
         }
-    )
+    );
     return false;
 }
