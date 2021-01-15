@@ -5,7 +5,7 @@ Along this website we will bring your services one step closer to your users. Th
 Easy and simple, just with one click you will have on your hand a piece of waht a escape room is. 
 
 
-
+**You can see live project [here](https://carlosfaccelli26.github.io/escapeRoomMilestoneProject/)**
 
 ## User Experience (UX)
 
@@ -40,21 +40,16 @@ Easy and simple, just with one click you will have on your hand a piece of waht 
     - Fonts used were Poppins as a general font through website and Roboto for headers and sub-headers.
 
   - Wireframes
-    - Desktop devices:
-
-    - Tablet devices: 
-
-    - Mobile devices: 
 
 ## Technologies used
 
   ### Languages Used, Wireframes and programs
 
 - [HTML](https://en.wikipedia.org/wiki/HTML#:~:text=Hypertext%20Markup%20Language%20(HTML)%20is,scripting%20languages%20such%20as%20JavaScript.).
-    - Used to create the content of the website.
+    - Used to create the content of the website. [View](assets/images/screenshots/html-validator.png)
 
 - [CSS](https://en.wikipedia.org/wiki/CSS).
-    - Used to give the attractive design of the website.
+    - Used to give the attractive design of the website. [View](assets/images/screenshots/css-validator)
 
 - [Javascript](https://en.wikipedia.org/wiki/JavaScript).
     - Used to make the website interactive.
