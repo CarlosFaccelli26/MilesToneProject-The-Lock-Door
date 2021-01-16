@@ -41,7 +41,9 @@ Easy and simple, just with one click you will have on your hand a piece of waht 
   - Typography
     - Fonts used were Poppins as a general font through website and Roboto for headers and sub-headers.
 
-  - Wireframes [View](assets/wireframes/EscapeRoom.bmpr)
+  - Wireframes 
+    - [View](assets/wireframes/EscapeRoom.bmpr) *Balsamiq version*
+    - [View](assets/wireframes/The-Lock-Door.pdf) *Balsamiq version pdf*
 
 ## Technologies used
 
@@ -108,7 +110,9 @@ Easy and simple, just with one click you will have on your hand a piece of waht 
 Website was checked on W3C markup (html), W3C CSS (CSS) and Syntax Validator JSHint (Javascript) and showed no erros found.
 
   - [JSHint](https://jshint.com/)
-    - [View](assets/images/screenshots/javascript-testing.png), [View](assets/images/screenshots/javascript-testing1.png), [View](assets/images/screenshots/javascript-testing2.png)
+    - [View](assets/images/screenshots/javascript-testing.png)
+    - [View](assets/images/screenshots/javascript-testing1.png)
+    - [View](assets/images/screenshots/javascript-testing2.png)
   - [W3CHTML](https://validator.w3.org/)
     - [View](assets/images/screenshots/html-validator.png)
   - [WRCCSS](https://jigsaw.w3.org/css-validator/)
