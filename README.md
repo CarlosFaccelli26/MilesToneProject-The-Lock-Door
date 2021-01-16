@@ -105,7 +105,7 @@ Easy and simple, just with one click you will have on your hand a piece of waht 
   - The user will find a contact form which will ask for basic contact information although this information is necessary otherwise the form won't be submited.
 
 ## Testing
-Website was checked on W3C markup (html), W3C CSS (CSS) and Syntax Validator Esprima (Javascript) and showed no erros found.
+Website was checked on W3C markup (html), W3C CSS (CSS) and Syntax Validator JSHint (Javascript) and showed no erros found.
 
   - [JSHint](https://jshint.com/)
     - [View](assets/images/screenshots/javascript-testing.png), [View](assets/images/screenshots/javascript-testing1.png), [View](assets/images/screenshots/javascript-testing2.png)
@@ -168,81 +168,80 @@ Website was checked on W3C markup (html), W3C CSS (CSS) and Syntax Validator Esp
 ### Interactive elemnents
 #### Accordion
 
-  - Code was takken from [W3school](https://www.w3schools.com/default.asp)
+  - The code has been taken from [W3school](https://www.w3schools.com/default.asp)
 
     Accordion implemented in rules section:
     ![Accordion first phase](assets/images/screenshots/accordion1.png)
-    - These are the rules implemented on the project, once we click in one of each segments will display a small description of the rule that we want to get information of.
+    - Along this section we can find the rules which the players must follow. Thanks to the accordion when you click in one of the rules, a small description will be displayed.  
 
     ![Accorion in motion](assets/images/screenshots/accordion2.png)
-    - Here we have the first rule display as we can see it will show a small description of what's about.
+    - In this picture, we find the first rule with the brief description displayed. The 'tittle' of the rule will turn into another color to let the user know the rule they have clicked.  
 
     ![Accordion in motion](assets/images/screenshots/accordion3.png)
-    - Here is the second rules display showing more information.
+    - The second rule is following the same procedure. 
 
     ![Accoridon in motion](assets/images/screenshots/accordion4.png)
-    - Another rule, displaying information.
+    - In the same way than the others rules, when you click on the third rule more information will be displayed. 
 
     ![Accoridon in motion](assets/images/screenshots/accordion5.png)
-    - Last rules displaying information.
+    - In the last picture, we find the last rule following the same procedures than the rules we mentioned before. 
 
-    *I need to mention that when i click on a rule it does not close other rules that is displayed*
+    *Least but not less, I need to mention that when you click on a rule, the rule which was pressed before it will remain displayed. However, in that way the user will be able to have all the rules displayed once he finish the reading.* 
 
 #### Google Map API
-  - Google Maps implemented on location section
+  - **Google Maps** implemented on location section
     ![Map](assets/images/screenshots/map1.png)
-    - As we can see I choose 4 locations located in my country Uruguay in the place that i grew up. The code was based on the tutorial that [Code Institute](https://codeinstitute.net/) provide.
+    - As we can see in this section, I have decided to pick 4 different locations. You will be able to find this locations around Uruguay, the country where I was born. The code used along this section is following the tutorial from [Code Institute](https://codeinstitute.net/) as a reference. 
     
     ![Map](assets/images/screenshots/map.png)
-    - When i click on the blue number 4, will display automatically the four locations.
+    - Once you click on the blue number four, four different locations will be displayed.
 
 #### Contacr form
-  - Email js was implemented on the contact section, again code was based on the tutorial that [Code Institute](https://codeinstitute.net/) provide.
+  - As you can see along this section we implemented the **Email js** following the steps on the tutorial provided by [Code Institute](https://codeinstitute.net/).
   ![Email JS](assets/images/screenshots/contact1.png)
-  - If we try to submit the form without filling up the inputs the form won't submit. All inputs must be filled to the form be submitted, as I show in the next pictures.
+  - As We show in this pictures, it will be mandatory to fill up all the inputs in the form. If you do not, it will be impossible to submit the form.
   ![Email JS](assets/images/screenshots/contact2.png)
   ![Email JS](assets/images/screenshots/contact3.png)
   ![Email JS](assets/images/screenshots/contact4.png)
   ![Email JS](assets/images/screenshots/contact5.png)
   ![Email JS](assets/images/screenshots/contact6.png)
-  - As we can see any of the inputs must be fill in, once we fill all the inputs and we submit, it will show an alert which will give us the text of **Message sent succesfully**
+  - Once the user fill all the inputs he will be able to submit the form. If the form has been submited properly we will find an alert with the text: **Message sent succesfully**
 
 #### Fixed top navbar
-  - Implemented on the navbar and it will stick to the top through all the website, code was based on a video on [Youtube](http://www.youtube.com) an the youtube chanel is [Fixed-top Nav](https://www.youtube.com/watch?v=xYA2bcEHKg8&t=511s)
+  - Along this section the code was implemented to improve the navbar. The navbar will be on the top of each section along all the website. The code is based on this youtube video: [Youtube](http://www.youtube.com) finded throught this youtube chanel: [Fixed-top Nav](https://www.youtube.com/watch?v=xYA2bcEHKg8&t=511s)
 
 #### Scrolling behaviour
-  - I decide to add scroll behaviour due in safari the CSS property of **scroll behaviour** it is not supported. I found a problem which is the following, on the code I write some margin of seconds that the scroll should delay. This delay works perfectly on safaria however when I run the project on Chrome it does not work as I expected, so I needed to reduce the time. Basically in Chrome will work perfectly, but on safari it won't. It's gonna be something taht i would like to make it right in future projects.
+  - We took the decision to add a scroll behaviour because in Safari the CSS property of **scroll behaviour** was not supported. A problem was founded: On the code writen before, we find a few seconds that the scroll should delay. This delay works perfectly on Safari. Spite of the fact, it is not happen the same in Chrome, so that is the reason why the time was reduced. After all these changes you can realise that the project will work perfectly in Chrome but not at all in Safari. For sure this will be an improvement for the future projects.
   Code was takken again from [W3school](https://www.w3schools.com/default.asp)
 
 
 ## Deployment
-#### Process that i follow to deploy my project Live.
-  - First I Logged in on [GitHub](https://github.com/). Once I logged on Github clicked on my repository I will leave the link [The Lock Door](https://github.com/CarlosFaccelli26/escapeRoomMilestoneProject).
+#### Steps followed to deploy my project Live.
+  - The first step was Logged in on [GitHub](https://github.com/). Once I get in, I just clicked on my repository. You will find the link to acces to the repositiry attached:[The Lock Door](https://github.com/CarlosFaccelli26/escapeRoomMilestoneProject).
 
-  - After finding my repository I can click on settings as I show in the next picture:
-  ![Deployment](assets/images/screenshots/deployment.png)
+  - As you can see in the picutre, once I have founded my repository, I will be ready to click on settings.![Deployment](assets/images/screenshots/deployment.png)
 
-  - Next step will be scroll down until we find a segment wich will be Github pages as I show in the next picture ![Deployment1](assets/images/screenshots/deployment1.png)
+  - After the previous steps, I will need to scroll down If I want to find the segment were we have the Github pages options. All this procedure is supported by the picture attached: ![Deployment1](assets/images/screenshots/deployment1.png)
 
-  - Last step will be change the brand to master once again I post a picture ![deployment2](assets/images/screenshots/deployment2.png)
+  - Along this picture we can see the last step, It will be to change the brand to master. ![deployment2](assets/images/screenshots/deployment2.png). Following that steps the only remain thing to do is saved.
 
 #### Clone repository.
 *Ways of cloning my repository*
 
   - Using Github Desktop
-    -  You can go to my repository I'll leave the link [The Lock Door](https://github.com/CarlosFaccelli26/escapeRoomMilestoneProject). Once you get there you need to click on "Code", after will give you the option of open with Github desktop, and there you can open with your own **Code Editor**. Following will be some pictures showing the process.
+    -  You can go to my repository following the nex link:[The Lock Door](https://github.com/CarlosFaccelli26/escapeRoomMilestoneProject). Once you get there you need to click on "Code". You will find the option to open with Github desktop, there you will be able to open it with your own **Code Editor**. You will find some pictures attached below where you can follow the steps.
     ![Clone Repository](assets/images/screenshots/clone-repository.png)
     ![Clone Repository 1](assets/images/screenshots/clone-repository1.png)
 
   - Using Git
-    - First we find my repository [The Lock Door](https://github.com/CarlosFaccelli26/escapeRoomMilestoneProject)
+    - As we explained before, the first step will be go to my repository [The Lock Door](https://github.com/CarlosFaccelli26/escapeRoomMilestoneProject)
 
-    - Once there we click on "Code" will display a small window, then we click on the link that Github provide
+    - Once you are in, you just nedd to click on "Code". You will see how a small window is displayed, you will need to click on the linkn provided by Github.
     ![Clone Repository Git](assets/images/screenshots/clone-repository-git.png)
 
-    - Once we have the link we should go to our **Code Editor** and in the terminal we must type *git clone* and paste the link that we got from github. 
+    - Once we have the link we should go to our **Code Editor** to type in the terminal: *git clone*. Also we have to paste the link that we got from github. 
 
-    - Following I will show pictures of the process
+    - Some pictures have been attached bellow to show the procces step by step. 
       - Opening Code Editor
     ![Clone Repository 1](assets/images/screenshots/clone-repository-git1.png)
 

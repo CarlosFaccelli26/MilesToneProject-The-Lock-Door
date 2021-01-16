@@ -784,7 +784,7 @@ input {
 @media screen and (max-width: 992px) {
    /* Rules */
    .rules h4 {
-    
+
    } 
 
   /* Location */
@@ -806,6 +806,7 @@ input {
 
   .price {
     margin-top: 10px;
+    height: 130px;
   }
 
   /* Contact */
