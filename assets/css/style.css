@@ -782,6 +782,11 @@ input {
 }
 
 @media screen and (max-width: 992px) {
+   /* Rules */
+   .rules h4 {
+    
+   } 
+
   /* Location */
   .addresses {
     margin-bottom: 0;
