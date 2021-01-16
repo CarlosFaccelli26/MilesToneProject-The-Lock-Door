@@ -7,7 +7,7 @@ Easy and simple, just with one click you will have on your hand a piece of waht 
 
 ![MockUps](assets/images/screenshots/Mockups.png)
 
-**You can see live project [here](https://carlosfaccelli26.github.io/escapeRoomMilestoneProject/)**
+**You can see live project [here](https://carlosfaccelli26.github.io/MilesToneProject-The-Lock-Door/)**
 
 ## User Experience (UX)
 
