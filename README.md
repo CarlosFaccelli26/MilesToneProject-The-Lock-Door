@@ -1,6 +1,6 @@
 # The Lock Door Escape Room
 Would you imagine to be completely lock inside of a roon full of misteries? 
-As you can see on this website, **The Lock Door** is a scape room where the people will be able to enjoy and spend their free time having a ball with friends or family. 
+As you can see on this website, **The Lock Door** is a escape room where the people will be able to enjoy and spend their free time having a ball with friends or family. 
 Along this website we will bring your services one step closer to your users. Therefore we will put together all the information your users will need in a cool and an attractive website. 
 Easy and simple, just with one click you will have on your hand a piece of waht a escape room is. 
 
@@ -23,9 +23,9 @@ Easy and simple, just with one click you will have on your hand a piece of waht 
     - As the main manger of The lock door..
        - I need an eye catching website to impress the future clients. As much interesting the website is, more people will be joining our games. 
 
-       - I want a simple and unique website where the client will be able to have all the information together without issues. The option to Get in touch with the service will be completely necesary because of the interest we have to give a personal service to the customers.
+       - I want a simple and unique website where the client will be able to have all the information together without issues. The option to get in touch with the service will be completely necesary because of the interest we have to give a personal service to the customers.
 
-       - I want to show to the future clients some reviews to let them know how our services are. I want to be able to have a feedback with the players to see how merry they are with the services or which detail we can imrpove for our future clients. Therefore I want to give them the posisbility to check our social media. 
+       - I want to show to the future clients some reviews to let them know how our services are. I want to be able to have a feedback with the players to see how merry they are with the services or which detail we can improve for our future clients. Therefore I want to give them the posisbility to check our social media. 
 
        - I want to provide the information of where our escape rooms are based.
   
@@ -62,7 +62,7 @@ Easy and simple, just with one click you will have on your hand a piece of waht 
   1. [Bootstrap](https://getbootstrap.com/).
      - Used to create good layout and menu bar.
   2. [FontAwesome](https://fontawesome.com/).
-     - Used for the icon on the menu bar when reach mobile devices.
+     - Used for the icon on the menu bar when reach mobile devices, and on the section of who can play, describing the variaty of choices to play.
   3. [GoogleFonts](https://fonts.google.com/).
      - Used to choose the fonts of the website.
   4. [jQuery](https://en.wikipedia.org/wiki/JQuery).
@@ -74,9 +74,9 @@ Easy and simple, just with one click you will have on your hand a piece of waht 
   7. [Github](https://github.com/).
      - Used to store the project.
   8. [Balsamiq](https://balsamiq.com/wireframes/?gclid=Cj0KCQiAlZH_BRCgARIsAAZHSBkd367oC7MTQ3JSGyKp4-L14-RIxCOmcc_RS85PwgekpxOu6BzyCFcaAoDvEALw_wcB).
-     - Used to create wireframes on desktop, tablet and mobile devices.
+     - Used to create wireframes on desktop and mobile devices.
   9. [Am i Responsive](http://ami.responsivedesign.is/#)
-     - Used to create a nice picture of my Project displayed on mobile, tablet and desktop.
+     - Used to create a nice mockup of my Project displayed on mobile, tablet and desktop.
 
 ## Features
 1. Responsive on all devices.
@@ -88,14 +88,14 @@ Easy and simple, just with one click you will have on your hand a piece of waht 
     Also we can see a button which give you the chance to book a ticket for the game.
 
 ![About](assets/images/screenshots/Screenshot2.png)
-  - About section constist basically in rules that the users must follow, people who are allowed to play and a description of waht is an escape room.
+  - About section constist basically in rules that the users must follow, people who are allowed to play and a description of what is an escape room.
   As you can see navigation bar still present at the top of the browser.
 
 ![Rooms](assets/images/screenshots/Screenshot3.png)
   - Rooms section is the most important because includes a description of each room. If you hover the mouse over the images it will show you a small description of the rooms.
 
 ![Location](assets/images/screenshots/Screenshot4.png)
-  - Location section will show to the user where are **The Lock Door** are based. There is for addresses and a map rended bellow the addresses.
+  - Location section will show to the user where **The Lock Door** is based. There are four addresses and a map rended bellow the addresses.
 
 ![Location1](assets/images/screenshots/Screenshot5.png)
   - If you click on it, it will show you all the locations of the places that the game will take place.
@@ -149,9 +149,9 @@ Website was checked on W3C markup (html), W3C CSS (CSS) and Syntax Validator JSH
             - Once you get into the site, you will realise how all the colours, images or texts, have been picked very carefully achieving the goal of catch the attention of the user. All this elemnents are enigmatic with the purpose to be hook up to the website, as a result of this the users will have a new curiosity which bring them to join the play and have some fun with friends and family. 
 
         
-        - I want a simple and unique website where the client will be able to have all the information together without issues. The option to Get in touch with the service will be completely necesary because of the interest we have to give a personal service to the customers.
+        - I want a simple and unique website where the client will be able to have all the information together without issues. The option to get in touch with the service will be completely necesary because of the interest we have to give a personal service to the customers.
 
-          - The services we bring to our clients as webdevelopers are unique and individual for each customer so that means the website will be unique as well. 
+          - The services we bring to our clients as web developers are unique and individual for each customer so that means the website will be unique as well. 
             
           - As we exlpained before, the website is easy to use, you will have the posibility to press on the different options of the navigation bar, or If it will be easier for you, you just need to scroll down to see each section were you will find the information you will be showing to the future players. 
              
@@ -174,7 +174,7 @@ Website was checked on W3C markup (html), W3C CSS (CSS) and Syntax Validator JSH
 
   - The code has been taken from [W3school](https://www.w3schools.com/default.asp)
 
-    Accordion implemented in rules section:
+    **Accordion** implemented in rules section:
     ![Accordion first phase](assets/images/screenshots/accordion1.png)
     - Along this section we can find the rules which the players must follow. Thanks to the accordion when you click in one of the rules, a small description will be displayed.  
 
@@ -218,6 +218,9 @@ Website was checked on W3C markup (html), W3C CSS (CSS) and Syntax Validator JSH
   - We took the decision to add a scroll behaviour because in Safari the CSS property of **scroll behaviour** was not supported. A problem was founded: On the code writen before, we find a few seconds that the scroll should delay. This delay works perfectly on Safari. Spite of the fact, it is not happen the same in Chrome, so that is the reason why the time was reduced. After all these changes you can realise that the project will work perfectly in Chrome but not at all in Safari. For sure this will be an improvement for the future projects.
   Code was takken again from [W3school](https://www.w3schools.com/default.asp)
 
+#### Social Links
+  - Every social links located at the bottom of the website will open a new browser, this would help the user, because the user won't loose concentration on the website.
+
 
 ## Deployment
 #### Steps followed to deploy my project Live.
@@ -240,7 +243,7 @@ Website was checked on W3C markup (html), W3C CSS (CSS) and Syntax Validator JSH
   - Using Git
     - As we explained before, the first step will be go to my repository [The Lock Door](https://github.com/CarlosFaccelli26/escapeRoomMilestoneProject)
 
-    - Once you are in, you just nedd to click on "Code". You will see how a small window is displayed, you will need to click on the linkn provided by Github.
+    - Once you are in, you just nedd to click on "Code". You will see how a small window is displayed, you will need to click on the linkn provided by Github. Here you will find the link attached: [Git Clone](https://github.com/CarlosFaccelli26/MilesToneProject-The-Lock-Door.git)
     ![Clone Repository Git](assets/images/screenshots/clone-repository-git.png)
 
     - Once we have the link we should go to our **Code Editor** to type in the terminal: *git clone*. Also we have to paste the link that we got from github. 
