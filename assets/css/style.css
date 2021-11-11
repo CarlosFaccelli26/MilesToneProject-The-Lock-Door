@@ -69,12 +69,8 @@ ul {
   color: #fff;
 }
 
-.nav-bg.scrolled {
-  background-image: linear-gradient(360deg, rgb(17, 16, 16), rgb(233, 71, 12));
-}
-
-.nav-link.scrolled {
-  color: rgb(255, 255, 255);
+.scrolled {
+  background-image: linear-gradient(360deg, rgb(0, 0, 0), rgb(0, 0, 0));
 }
 
 /*============= Home =============*/
