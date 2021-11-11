@@ -1,6 +1,10 @@
 /*============= Google Fonts =============*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,300&family=Roboto:wght@700;900&display=swap");
 
+:root {
+  --orange: rgb(233, 88, 21);
+}
+
 html {
   overflow-x: hidden;
 }
@@ -17,7 +21,7 @@ body {
 
 .nav-bg {
   min-height: 8vh;
-  background-image: linear-gradient(360deg, rgb(17, 16, 16), rgb(233, 71, 12));
+  background-image: linear-gradient(360deg, rgb(17, 16, 16), var(--orange));
 }
 
 .nav-bg i {
@@ -76,11 +80,12 @@ ul {
 /*============= Home =============*/
 
 .home {
-  min-height: 800px;
+  min-height: 100vh;
   background-image: url(../images/home.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  padding-top: 84px;
 }
 
 .home-info {
@@ -102,13 +107,13 @@ ul {
 }
 
 .home-info h1 span {
-  color: rgb(255, 81, 0);
+  color: var(--orange);
   text-transform: uppercase;
 }
 
 .btn-book {
   color: #fff;
-  background-color: rgb(238, 70, 9);
+  background-color: var(--orange);
   padding: 10px 20px;
   border-radius: 10px;
   font-family: "Roboto", sans-serif;
@@ -120,7 +125,7 @@ ul {
 
 .btn-book:hover {
   background-color: #fff;
-  color: rgb(238, 70, 9);
+  color: var(--orange);
 }
 
 .home-info aside {
@@ -136,7 +141,7 @@ ul {
 /*============= About =============*/
 
 .about {
-  min-height: 800px;
+  min-height: calc(100vh - 84px);
   padding-top: 20px;
 }
 
@@ -194,7 +199,7 @@ ul {
 
 .active,
 .accordion:hover {
-  color: rgb(255, 81, 0);
+  color: var(--orange);
 }
 
 .accordion-panel {
@@ -249,13 +254,13 @@ ul {
 }
 
 .who-can-play p i:hover {
-  color: rgb(255, 81, 0);
+  color: var(--orange);
 }
 
 /*============= Rooms =============*/
 
 .rooms {
-  min-height: 800px;
+  min-height: calc(100vh - 84px);
   padding-top: 20px;
   background-color: black;
 }
@@ -333,7 +338,7 @@ ul {
 /*============= Location =============*/
 
 .location {
-  min-height: 800px;
+  min-height: calc(100vh - 84px);
   padding-top: 20px;
 }
 
@@ -362,7 +367,7 @@ ul {
 }
 
 .addresses p:hover {
-  color: rgb(241, 72, 10);
+  color: var(--orange);
   text-decoration: underline;
 }
 
@@ -377,7 +382,7 @@ ul {
 .reviews {
   padding-top: 20px;
   background-image: url(../images/reviews-bg.jpg);
-  min-height: 800px;
+  min-height: calc(100vh - 84px);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -445,7 +450,7 @@ ul {
 .prices-header span {
   font-size: 20px;
   font-weight: 400;
-  color: rgba(240, 71, 10, 0.877);
+  color: var(--orange);
 }
 
 .price-list {
@@ -474,7 +479,7 @@ ul {
 }
 
 .price span {
-  color: rgba(240, 71, 10, 0.877);
+  color: var(--orange);
   font-size: 20px;
   letter-spacing: 1px;
 }
@@ -482,8 +487,8 @@ ul {
 /*============= Contact =============*/
 
 .contact {
-  min-height: 700px;
-  background-color: rgba(46, 44, 44, 0.384);
+  min-height: calc(100vh - 84px);
+  /* background-color: rgba(46, 44, 44, 0.384); */
   padding-top: 20px;
 }
 
@@ -497,11 +502,13 @@ ul {
 }
 
 .form-control {
-  min-height: 400px;
+  /* min-height: 400px; */
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   border-radius: 20px;
+  border: 3px solid #000;
+  margin-bottom: 10px;
 }
 
 input {
@@ -513,6 +520,7 @@ input {
   outline: none;
   border-radius: 10px;
   outline: none;
+  padding: 5px;
 }
 
 .form-control textarea {
@@ -521,6 +529,7 @@ input {
   width: 90%;
   border-radius: 12px;
   outline: none;
+  padding: 5px;
 }
 
 .btn-submit {
@@ -529,7 +538,7 @@ input {
   outline: none;
   color: #fff;
   text-transform: uppercase;
-  background-color: rgb(233, 92, 10);
+  background-color: var(--orange);
   padding: 10px 20px;
   border-radius: 10px;
   font-family: "Roboto", sans-serif;
@@ -539,8 +548,8 @@ input {
 
 .btn-submit:hover {
   background-color: #fff;
-  color: rgb(233, 92, 10);
-  border: 1px solid rgb(233, 92, 10);
+  color: var(--orange);
+  border: 1px solid var(--orange);
 }
 
 /*============= Footer =============*/
@@ -548,7 +557,7 @@ input {
 .footer {
   min-height: 8vh;
   padding: 10px;
-  background-image: linear-gradient(180deg, rgb(17, 16, 16), rgb(233, 71, 12));
+  background-image: linear-gradient(180deg, rgb(17, 16, 16), var(--orange));
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -566,7 +575,7 @@ input {
 }
 
 .social-links i:hover {
-  color: rgb(235, 63, 11);
+  color: var(--orange);
 }
 
 .copyright h5 {
