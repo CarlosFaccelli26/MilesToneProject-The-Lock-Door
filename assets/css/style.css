@@ -571,7 +571,7 @@ input {
 }
 
 .social-links i:hover {
-  color: var(--orange);
+  color: #fffa;
 }
 
 .copyright h5 {
@@ -582,10 +582,17 @@ input {
   font-weight: 300;
 }
 
-.copyright h5 span {
+.copyright h5 a {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+  transition: all .5s ease;
+}
+
+.copyright h5 a:hover {
+  color: var(--orange);
 }
 
 /*============= Media Queries =============*/
@@ -715,6 +722,10 @@ input {
   }
 
   /* Footer */
+  .copyright {
+    margin-top: 20px;
+  }
+
   .copyright h5 {
     text-align: center;
   }
